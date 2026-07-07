@@ -53,10 +53,12 @@ SEED = 2025
 # Output
 OUT_FILE = os.path.join("runs", "Model1_Benchmark", "bundle_instances.json")
 
-# How many instances (sizes x repeats)
-SIZES = [10, 20, 30, 40]          # number of tasks n_tasks
+# How many instances (sizes x repeats).  The default size/fleet pairs mirror the
+# scalable configurations reported in the manuscript.
+SIZES = [20, 40, 60, 80]          # number of tasks n_tasks
 REPEATS_PER_SIZE = 5              # random instances per size
-L_CHOICES = [1, 2, 3]             # UAV-count candidates (one chosen at random per instance)
+L_BY_SIZE = {20: 2, 40: 3, 60: 4, 80: 5}
+L_CHOICES = [2, 3, 4, 5]          # fallback candidates for user-added sizes
 
 # Spatial layout: uniform / clustered / line
 #   - uniform:   points spread uniformly over a square area
@@ -221,7 +223,7 @@ def step1_generate_one(instance_seed: int, n_tasks: int) -> Model1InstanceSpec:
     rng = random.Random(instance_seed)
 
     # parameters
-    L = rng.choice(L_CHOICES)
+    L = L_BY_SIZE.get(n_tasks, rng.choice(L_CHOICES))
     vv, cv, vd, cd, R = sample_params(rng)
 
     # depot
@@ -321,6 +323,7 @@ def step2_generate_bundle() -> Dict[str, Any]:
             "layout_mode": LAYOUT_MODE,
             "loop_trip": LOOP_TRIP,
             "sizes": SIZES,
+            "fleet_by_size": L_BY_SIZE,
             "repeats_per_size": REPEATS_PER_SIZE,
             "L_choices": L_CHOICES,
             "area_box": list(AREA_BOX),

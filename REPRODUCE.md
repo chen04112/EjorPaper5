@@ -46,8 +46,10 @@ The deterministic, seeded generator that synthesizes the generated instance fami
   instance is reconstructible from its `(n, r)` label.
 - The conservative-feasibility guarantee `2*dist(port, task) <= vd*R` (a plan is feasible
   even if the vessel does not move), so the inner SOCP is not vacuously infeasible.
-- Controllable size list `SIZES`, fleet choices `L_CHOICES`, and layout parameters, all set
-  at the top of the script.
+- Controllable size list `SIZES`, fleet mapping `L_BY_SIZE`, fallback fleet choices
+  `L_CHOICES`, and layout parameters, all set at the top of the script. The default
+  size/fleet pairs are `(20,2)`, `(40,3)`, `(60,4)`, and `(80,5)`, matching the
+  main scalability configurations in the manuscript.
 
 To regenerate: `python bundle_instances.py` (requires `numpy`). The shipped instance files
 remain the authoritative benchmark; the generator documents how such families are built.
