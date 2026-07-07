@@ -1,0 +1,5481 @@
+{
+  "case_id": "ExampleLarge_n300_L4_seed23260128",
+  "instance_file": "instances/ExampleLarge_n300_L4_seed23260128.json",
+  "solver": {
+    "script": "src/hybrid_vmurp_lbbd_v3.py",
+    "runner": "reproduce_large_diagnostics.py",
+    "run_seed": 23260128,
+    "params": {
+      "dro_cfg": {
+        "enabled": true,
+        "eta_lower": 1.0,
+        "eta_upper": 1.5,
+        "mu_plus": 1.2,
+        "sigma_plus": 0.1,
+        "eps_out": 0.1,
+        "eps_in": 0.1,
+        "eps_sortie": null
+      },
+      "base_op_mode": "interleaved",
+      "repair_mode": "sampled",
+      "repair_k": 5,
+      "destroy_frac": 0.3,
+      "T_start": 5000.0,
+      "alpha": 0.99,
+      "max_iter": 12,
+      "mosek_threads": 1,
+      "refine_policy": "never",
+      "refine_steps": 0,
+      "refine_evals": 0,
+      "refine_trigger_rel": 0.1,
+      "search_style": "mix",
+      "p_best": 0.75,
+      "R_override": null,
+      "cache_size": 2000,
+      "use_mosek_bounds": true,
+      "debug_mosek": false,
+      "fallback_ops": "one_uav",
+      "assign_search": true,
+      "p_assign_move": 0.5,
+      "assign_move_frac": 0.34,
+      "p_loiter_move": 0.25
+    }
+  },
+  "objective": 27866.267443155288,
+  "runtime_note": "Wall-clock time is printed by the script but not stored because it is environment dependent.",
+  "ship_time": 122.87756894599008,
+  "drone_time": 408.8235087796851,
+  "max_active": 4,
+  "hat_out": 1.5,
+  "hat_in": 1.5,
+  "vd_out": 16.133147769155062,
+  "vd_in": 16.133147769155062,
+  "ops": [
+    {
+      "op_type": 0,
+      "event": "DEP",
+      "task_id": null,
+      "uav_id": null
+    },
+    {
+      "op_type": 1,
+      "event": "TK(252)",
+      "task_id": 252,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(71)",
+      "task_id": 71,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(227)",
+      "task_id": 227,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(42)",
+      "task_id": 42,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(252)",
+      "task_id": 252,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(280)",
+      "task_id": 280,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(71)",
+      "task_id": 71,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(183)",
+      "task_id": 183,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(227)",
+      "task_id": 227,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(289)",
+      "task_id": 289,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(42)",
+      "task_id": 42,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(45)",
+      "task_id": 45,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(280)",
+      "task_id": 280,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(28)",
+      "task_id": 28,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(183)",
+      "task_id": 183,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(137)",
+      "task_id": 137,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(289)",
+      "task_id": 289,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(144)",
+      "task_id": 144,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(45)",
+      "task_id": 45,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(241)",
+      "task_id": 241,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(28)",
+      "task_id": 28,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(232)",
+      "task_id": 232,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(137)",
+      "task_id": 137,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(41)",
+      "task_id": 41,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(144)",
+      "task_id": 144,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(199)",
+      "task_id": 199,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(241)",
+      "task_id": 241,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(196)",
+      "task_id": 196,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(232)",
+      "task_id": 232,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(285)",
+      "task_id": 285,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(41)",
+      "task_id": 41,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(294)",
+      "task_id": 294,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(199)",
+      "task_id": 199,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(262)",
+      "task_id": 262,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(196)",
+      "task_id": 196,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(194)",
+      "task_id": 194,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(285)",
+      "task_id": 285,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(259)",
+      "task_id": 259,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(294)",
+      "task_id": 294,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(267)",
+      "task_id": 267,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(262)",
+      "task_id": 262,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(221)",
+      "task_id": 221,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(194)",
+      "task_id": 194,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(230)",
+      "task_id": 230,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(259)",
+      "task_id": 259,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(244)",
+      "task_id": 244,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(267)",
+      "task_id": 267,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(240)",
+      "task_id": 240,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(221)",
+      "task_id": 221,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(255)",
+      "task_id": 255,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(230)",
+      "task_id": 230,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(274)",
+      "task_id": 274,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(244)",
+      "task_id": 244,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(171)",
+      "task_id": 171,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(240)",
+      "task_id": 240,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(188)",
+      "task_id": 188,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(255)",
+      "task_id": 255,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(3)",
+      "task_id": 3,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(274)",
+      "task_id": 274,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(82)",
+      "task_id": 82,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(171)",
+      "task_id": 171,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(207)",
+      "task_id": 207,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(188)",
+      "task_id": 188,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(129)",
+      "task_id": 129,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(3)",
+      "task_id": 3,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(55)",
+      "task_id": 55,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(82)",
+      "task_id": 82,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(165)",
+      "task_id": 165,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(207)",
+      "task_id": 207,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(76)",
+      "task_id": 76,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(129)",
+      "task_id": 129,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(22)",
+      "task_id": 22,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(55)",
+      "task_id": 55,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(193)",
+      "task_id": 193,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(165)",
+      "task_id": 165,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(167)",
+      "task_id": 167,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(76)",
+      "task_id": 76,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(29)",
+      "task_id": 29,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(22)",
+      "task_id": 22,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(74)",
+      "task_id": 74,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(193)",
+      "task_id": 193,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(211)",
+      "task_id": 211,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(167)",
+      "task_id": 167,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(88)",
+      "task_id": 88,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(29)",
+      "task_id": 29,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(154)",
+      "task_id": 154,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(74)",
+      "task_id": 74,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(24)",
+      "task_id": 24,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(211)",
+      "task_id": 211,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(36)",
+      "task_id": 36,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(88)",
+      "task_id": 88,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(297)",
+      "task_id": 297,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(154)",
+      "task_id": 154,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(59)",
+      "task_id": 59,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(24)",
+      "task_id": 24,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(125)",
+      "task_id": 125,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(36)",
+      "task_id": 36,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(46)",
+      "task_id": 46,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(297)",
+      "task_id": 297,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(8)",
+      "task_id": 8,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(59)",
+      "task_id": 59,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(296)",
+      "task_id": 296,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(125)",
+      "task_id": 125,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(152)",
+      "task_id": 152,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(46)",
+      "task_id": 46,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(86)",
+      "task_id": 86,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(8)",
+      "task_id": 8,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(234)",
+      "task_id": 234,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(296)",
+      "task_id": 296,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(256)",
+      "task_id": 256,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(152)",
+      "task_id": 152,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(105)",
+      "task_id": 105,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(86)",
+      "task_id": 86,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(103)",
+      "task_id": 103,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(234)",
+      "task_id": 234,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(190)",
+      "task_id": 190,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(256)",
+      "task_id": 256,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(264)",
+      "task_id": 264,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(105)",
+      "task_id": 105,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(263)",
+      "task_id": 263,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(103)",
+      "task_id": 103,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(39)",
+      "task_id": 39,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(190)",
+      "task_id": 190,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(48)",
+      "task_id": 48,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(264)",
+      "task_id": 264,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(284)",
+      "task_id": 284,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(263)",
+      "task_id": 263,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(253)",
+      "task_id": 253,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(39)",
+      "task_id": 39,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(99)",
+      "task_id": 99,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(48)",
+      "task_id": 48,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(89)",
+      "task_id": 89,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(284)",
+      "task_id": 284,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(10)",
+      "task_id": 10,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(253)",
+      "task_id": 253,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(92)",
+      "task_id": 92,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(99)",
+      "task_id": 99,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(162)",
+      "task_id": 162,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(89)",
+      "task_id": 89,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(104)",
+      "task_id": 104,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(10)",
+      "task_id": 10,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(6)",
+      "task_id": 6,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(92)",
+      "task_id": 92,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(72)",
+      "task_id": 72,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(162)",
+      "task_id": 162,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(114)",
+      "task_id": 114,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(104)",
+      "task_id": 104,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(13)",
+      "task_id": 13,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(6)",
+      "task_id": 6,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(126)",
+      "task_id": 126,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(72)",
+      "task_id": 72,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(80)",
+      "task_id": 80,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(114)",
+      "task_id": 114,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(5)",
+      "task_id": 5,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(13)",
+      "task_id": 13,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(203)",
+      "task_id": 203,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(126)",
+      "task_id": 126,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(150)",
+      "task_id": 150,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(80)",
+      "task_id": 80,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(229)",
+      "task_id": 229,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(5)",
+      "task_id": 5,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(170)",
+      "task_id": 170,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(203)",
+      "task_id": 203,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(44)",
+      "task_id": 44,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(150)",
+      "task_id": 150,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(64)",
+      "task_id": 64,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(229)",
+      "task_id": 229,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(134)",
+      "task_id": 134,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(170)",
+      "task_id": 170,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(51)",
+      "task_id": 51,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(44)",
+      "task_id": 44,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(121)",
+      "task_id": 121,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(64)",
+      "task_id": 64,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(281)",
+      "task_id": 281,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(134)",
+      "task_id": 134,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(37)",
+      "task_id": 37,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(51)",
+      "task_id": 51,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(117)",
+      "task_id": 117,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(121)",
+      "task_id": 121,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(216)",
+      "task_id": 216,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(281)",
+      "task_id": 281,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(83)",
+      "task_id": 83,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(37)",
+      "task_id": 37,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(52)",
+      "task_id": 52,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(117)",
+      "task_id": 117,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(69)",
+      "task_id": 69,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(216)",
+      "task_id": 216,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(202)",
+      "task_id": 202,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(83)",
+      "task_id": 83,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(173)",
+      "task_id": 173,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(52)",
+      "task_id": 52,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(4)",
+      "task_id": 4,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(69)",
+      "task_id": 69,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(79)",
+      "task_id": 79,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(202)",
+      "task_id": 202,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(189)",
+      "task_id": 189,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(173)",
+      "task_id": 173,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(140)",
+      "task_id": 140,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(4)",
+      "task_id": 4,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(106)",
+      "task_id": 106,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(79)",
+      "task_id": 79,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(128)",
+      "task_id": 128,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(189)",
+      "task_id": 189,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(98)",
+      "task_id": 98,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(140)",
+      "task_id": 140,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(94)",
+      "task_id": 94,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(106)",
+      "task_id": 106,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(198)",
+      "task_id": 198,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(128)",
+      "task_id": 128,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(27)",
+      "task_id": 27,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(98)",
+      "task_id": 98,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(209)",
+      "task_id": 209,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(94)",
+      "task_id": 94,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(115)",
+      "task_id": 115,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(198)",
+      "task_id": 198,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(293)",
+      "task_id": 293,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(27)",
+      "task_id": 27,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(225)",
+      "task_id": 225,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(209)",
+      "task_id": 209,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(180)",
+      "task_id": 180,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(115)",
+      "task_id": 115,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(57)",
+      "task_id": 57,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(293)",
+      "task_id": 293,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(249)",
+      "task_id": 249,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(225)",
+      "task_id": 225,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(96)",
+      "task_id": 96,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(180)",
+      "task_id": 180,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(78)",
+      "task_id": 78,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(57)",
+      "task_id": 57,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(60)",
+      "task_id": 60,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(249)",
+      "task_id": 249,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(298)",
+      "task_id": 298,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(96)",
+      "task_id": 96,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(166)",
+      "task_id": 166,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(78)",
+      "task_id": 78,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(176)",
+      "task_id": 176,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(60)",
+      "task_id": 60,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(185)",
+      "task_id": 185,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(298)",
+      "task_id": 298,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(107)",
+      "task_id": 107,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(166)",
+      "task_id": 166,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(270)",
+      "task_id": 270,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(176)",
+      "task_id": 176,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(191)",
+      "task_id": 191,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(185)",
+      "task_id": 185,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(242)",
+      "task_id": 242,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(107)",
+      "task_id": 107,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(7)",
+      "task_id": 7,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(270)",
+      "task_id": 270,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(149)",
+      "task_id": 149,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(191)",
+      "task_id": 191,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(9)",
+      "task_id": 9,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(242)",
+      "task_id": 242,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(123)",
+      "task_id": 123,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(7)",
+      "task_id": 7,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(231)",
+      "task_id": 231,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(149)",
+      "task_id": 149,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(63)",
+      "task_id": 63,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(9)",
+      "task_id": 9,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(290)",
+      "task_id": 290,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(123)",
+      "task_id": 123,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(50)",
+      "task_id": 50,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(231)",
+      "task_id": 231,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(108)",
+      "task_id": 108,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(63)",
+      "task_id": 63,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(275)",
+      "task_id": 275,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(290)",
+      "task_id": 290,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(138)",
+      "task_id": 138,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(50)",
+      "task_id": 50,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(35)",
+      "task_id": 35,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(108)",
+      "task_id": 108,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(295)",
+      "task_id": 295,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(275)",
+      "task_id": 275,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(11)",
+      "task_id": 11,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(138)",
+      "task_id": 138,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(159)",
+      "task_id": 159,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(35)",
+      "task_id": 35,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(276)",
+      "task_id": 276,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(295)",
+      "task_id": 295,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(151)",
+      "task_id": 151,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(11)",
+      "task_id": 11,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(26)",
+      "task_id": 26,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(159)",
+      "task_id": 159,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(220)",
+      "task_id": 220,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(276)",
+      "task_id": 276,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(251)",
+      "task_id": 251,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(151)",
+      "task_id": 151,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(299)",
+      "task_id": 299,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(26)",
+      "task_id": 26,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(2)",
+      "task_id": 2,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(220)",
+      "task_id": 220,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(260)",
+      "task_id": 260,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(251)",
+      "task_id": 251,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(75)",
+      "task_id": 75,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(299)",
+      "task_id": 299,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(250)",
+      "task_id": 250,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(2)",
+      "task_id": 2,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(84)",
+      "task_id": 84,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(260)",
+      "task_id": 260,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(56)",
+      "task_id": 56,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(75)",
+      "task_id": 75,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(70)",
+      "task_id": 70,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(250)",
+      "task_id": 250,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(206)",
+      "task_id": 206,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(84)",
+      "task_id": 84,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(181)",
+      "task_id": 181,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(56)",
+      "task_id": 56,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(132)",
+      "task_id": 132,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(70)",
+      "task_id": 70,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(248)",
+      "task_id": 248,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(206)",
+      "task_id": 206,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(148)",
+      "task_id": 148,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(181)",
+      "task_id": 181,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(53)",
+      "task_id": 53,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(132)",
+      "task_id": 132,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(116)",
+      "task_id": 116,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(248)",
+      "task_id": 248,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(224)",
+      "task_id": 224,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(148)",
+      "task_id": 148,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(153)",
+      "task_id": 153,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(53)",
+      "task_id": 53,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(178)",
+      "task_id": 178,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(116)",
+      "task_id": 116,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(226)",
+      "task_id": 226,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(224)",
+      "task_id": 224,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(177)",
+      "task_id": 177,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(153)",
+      "task_id": 153,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(120)",
+      "task_id": 120,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(178)",
+      "task_id": 178,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(172)",
+      "task_id": 172,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(226)",
+      "task_id": 226,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(17)",
+      "task_id": 17,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(177)",
+      "task_id": 177,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(141)",
+      "task_id": 141,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(120)",
+      "task_id": 120,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(135)",
+      "task_id": 135,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(172)",
+      "task_id": 172,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(156)",
+      "task_id": 156,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(17)",
+      "task_id": 17,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(164)",
+      "task_id": 164,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(141)",
+      "task_id": 141,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(219)",
+      "task_id": 219,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(135)",
+      "task_id": 135,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(87)",
+      "task_id": 87,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(156)",
+      "task_id": 156,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(204)",
+      "task_id": 204,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(164)",
+      "task_id": 164,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(33)",
+      "task_id": 33,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(219)",
+      "task_id": 219,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(85)",
+      "task_id": 85,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(87)",
+      "task_id": 87,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(147)",
+      "task_id": 147,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(204)",
+      "task_id": 204,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(218)",
+      "task_id": 218,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(33)",
+      "task_id": 33,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(261)",
+      "task_id": 261,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(85)",
+      "task_id": 85,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(21)",
+      "task_id": 21,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(147)",
+      "task_id": 147,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(49)",
+      "task_id": 49,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(218)",
+      "task_id": 218,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(205)",
+      "task_id": 205,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(261)",
+      "task_id": 261,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(112)",
+      "task_id": 112,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(21)",
+      "task_id": 21,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(139)",
+      "task_id": 139,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(49)",
+      "task_id": 49,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(238)",
+      "task_id": 238,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(205)",
+      "task_id": 205,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(157)",
+      "task_id": 157,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(112)",
+      "task_id": 112,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(212)",
+      "task_id": 212,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(139)",
+      "task_id": 139,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(40)",
+      "task_id": 40,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(238)",
+      "task_id": 238,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(136)",
+      "task_id": 136,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(157)",
+      "task_id": 157,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(228)",
+      "task_id": 228,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(212)",
+      "task_id": 212,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(25)",
+      "task_id": 25,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(40)",
+      "task_id": 40,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(197)",
+      "task_id": 197,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(136)",
+      "task_id": 136,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(272)",
+      "task_id": 272,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(228)",
+      "task_id": 228,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(184)",
+      "task_id": 184,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(25)",
+      "task_id": 25,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(130)",
+      "task_id": 130,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(197)",
+      "task_id": 197,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(143)",
+      "task_id": 143,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(272)",
+      "task_id": 272,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(20)",
+      "task_id": 20,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(184)",
+      "task_id": 184,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(81)",
+      "task_id": 81,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(130)",
+      "task_id": 130,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(73)",
+      "task_id": 73,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(143)",
+      "task_id": 143,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(192)",
+      "task_id": 192,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(20)",
+      "task_id": 20,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(201)",
+      "task_id": 201,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(81)",
+      "task_id": 81,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(158)",
+      "task_id": 158,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(73)",
+      "task_id": 73,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(23)",
+      "task_id": 23,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(192)",
+      "task_id": 192,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(93)",
+      "task_id": 93,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(201)",
+      "task_id": 201,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(119)",
+      "task_id": 119,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(158)",
+      "task_id": 158,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(213)",
+      "task_id": 213,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(23)",
+      "task_id": 23,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(282)",
+      "task_id": 282,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(93)",
+      "task_id": 93,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(217)",
+      "task_id": 217,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(119)",
+      "task_id": 119,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(287)",
+      "task_id": 287,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(213)",
+      "task_id": 213,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(279)",
+      "task_id": 279,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(282)",
+      "task_id": 282,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(65)",
+      "task_id": 65,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(217)",
+      "task_id": 217,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(187)",
+      "task_id": 187,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(287)",
+      "task_id": 287,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(208)",
+      "task_id": 208,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(279)",
+      "task_id": 279,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(269)",
+      "task_id": 269,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(65)",
+      "task_id": 65,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(131)",
+      "task_id": 131,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(187)",
+      "task_id": 187,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(168)",
+      "task_id": 168,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(208)",
+      "task_id": 208,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(215)",
+      "task_id": 215,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(269)",
+      "task_id": 269,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(133)",
+      "task_id": 133,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(131)",
+      "task_id": 131,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(113)",
+      "task_id": 113,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(168)",
+      "task_id": 168,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(160)",
+      "task_id": 160,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(215)",
+      "task_id": 215,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(77)",
+      "task_id": 77,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(133)",
+      "task_id": 133,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(38)",
+      "task_id": 38,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(113)",
+      "task_id": 113,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(101)",
+      "task_id": 101,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(160)",
+      "task_id": 160,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(169)",
+      "task_id": 169,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(77)",
+      "task_id": 77,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(118)",
+      "task_id": 118,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(38)",
+      "task_id": 38,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(124)",
+      "task_id": 124,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(101)",
+      "task_id": 101,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(291)",
+      "task_id": 291,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(169)",
+      "task_id": 169,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(288)",
+      "task_id": 288,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(118)",
+      "task_id": 118,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(246)",
+      "task_id": 246,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(124)",
+      "task_id": 124,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(223)",
+      "task_id": 223,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(291)",
+      "task_id": 291,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(145)",
+      "task_id": 145,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(288)",
+      "task_id": 288,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(67)",
+      "task_id": 67,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(246)",
+      "task_id": 246,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(155)",
+      "task_id": 155,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(223)",
+      "task_id": 223,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(91)",
+      "task_id": 91,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(145)",
+      "task_id": 145,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(16)",
+      "task_id": 16,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(67)",
+      "task_id": 67,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(292)",
+      "task_id": 292,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(155)",
+      "task_id": 155,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(61)",
+      "task_id": 61,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(91)",
+      "task_id": 91,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(266)",
+      "task_id": 266,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(16)",
+      "task_id": 16,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(286)",
+      "task_id": 286,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(292)",
+      "task_id": 292,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(18)",
+      "task_id": 18,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(61)",
+      "task_id": 61,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(19)",
+      "task_id": 19,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(266)",
+      "task_id": 266,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(163)",
+      "task_id": 163,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(286)",
+      "task_id": 286,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(235)",
+      "task_id": 235,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(18)",
+      "task_id": 18,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(283)",
+      "task_id": 283,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(19)",
+      "task_id": 19,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(210)",
+      "task_id": 210,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(163)",
+      "task_id": 163,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(58)",
+      "task_id": 58,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(235)",
+      "task_id": 235,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(66)",
+      "task_id": 66,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(283)",
+      "task_id": 283,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(30)",
+      "task_id": 30,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(210)",
+      "task_id": 210,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(14)",
+      "task_id": 14,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(58)",
+      "task_id": 58,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(237)",
+      "task_id": 237,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(66)",
+      "task_id": 66,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(12)",
+      "task_id": 12,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(30)",
+      "task_id": 30,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(278)",
+      "task_id": 278,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(14)",
+      "task_id": 14,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(32)",
+      "task_id": 32,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(237)",
+      "task_id": 237,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(243)",
+      "task_id": 243,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(12)",
+      "task_id": 12,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(239)",
+      "task_id": 239,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(278)",
+      "task_id": 278,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(142)",
+      "task_id": 142,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(32)",
+      "task_id": 32,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(54)",
+      "task_id": 54,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(243)",
+      "task_id": 243,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(174)",
+      "task_id": 174,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(239)",
+      "task_id": 239,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(109)",
+      "task_id": 109,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(142)",
+      "task_id": 142,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(161)",
+      "task_id": 161,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(54)",
+      "task_id": 54,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(122)",
+      "task_id": 122,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(174)",
+      "task_id": 174,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(186)",
+      "task_id": 186,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(109)",
+      "task_id": 109,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(271)",
+      "task_id": 271,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(161)",
+      "task_id": 161,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(236)",
+      "task_id": 236,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(122)",
+      "task_id": 122,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(97)",
+      "task_id": 97,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(186)",
+      "task_id": 186,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(258)",
+      "task_id": 258,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(271)",
+      "task_id": 271,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(179)",
+      "task_id": 179,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(236)",
+      "task_id": 236,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(268)",
+      "task_id": 268,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(97)",
+      "task_id": 97,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(222)",
+      "task_id": 222,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(258)",
+      "task_id": 258,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(62)",
+      "task_id": 62,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(179)",
+      "task_id": 179,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(200)",
+      "task_id": 200,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(268)",
+      "task_id": 268,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(47)",
+      "task_id": 47,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(222)",
+      "task_id": 222,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(247)",
+      "task_id": 247,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(62)",
+      "task_id": 62,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(146)",
+      "task_id": 146,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(200)",
+      "task_id": 200,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(300)",
+      "task_id": 300,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(47)",
+      "task_id": 47,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(95)",
+      "task_id": 95,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(247)",
+      "task_id": 247,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(254)",
+      "task_id": 254,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(146)",
+      "task_id": 146,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(90)",
+      "task_id": 90,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(300)",
+      "task_id": 300,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(175)",
+      "task_id": 175,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(95)",
+      "task_id": 95,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(68)",
+      "task_id": 68,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(254)",
+      "task_id": 254,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(233)",
+      "task_id": 233,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(90)",
+      "task_id": 90,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(15)",
+      "task_id": 15,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(175)",
+      "task_id": 175,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(34)",
+      "task_id": 34,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(68)",
+      "task_id": 68,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(111)",
+      "task_id": 111,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(233)",
+      "task_id": 233,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(1)",
+      "task_id": 1,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(15)",
+      "task_id": 15,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(31)",
+      "task_id": 31,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(34)",
+      "task_id": 34,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(257)",
+      "task_id": 257,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(111)",
+      "task_id": 111,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(182)",
+      "task_id": 182,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(1)",
+      "task_id": 1,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(273)",
+      "task_id": 273,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(31)",
+      "task_id": 31,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(195)",
+      "task_id": 195,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(257)",
+      "task_id": 257,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(277)",
+      "task_id": 277,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(182)",
+      "task_id": 182,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(110)",
+      "task_id": 110,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(273)",
+      "task_id": 273,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(43)",
+      "task_id": 43,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(195)",
+      "task_id": 195,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(102)",
+      "task_id": 102,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(277)",
+      "task_id": 277,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(100)",
+      "task_id": 100,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(110)",
+      "task_id": 110,
+      "uav_id": 1
+    },
+    {
+      "op_type": 1,
+      "event": "TK(127)",
+      "task_id": 127,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(43)",
+      "task_id": 43,
+      "uav_id": 2
+    },
+    {
+      "op_type": 1,
+      "event": "TK(245)",
+      "task_id": 245,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(102)",
+      "task_id": 102,
+      "uav_id": 3
+    },
+    {
+      "op_type": 1,
+      "event": "TK(265)",
+      "task_id": 265,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(100)",
+      "task_id": 100,
+      "uav_id": 4
+    },
+    {
+      "op_type": 1,
+      "event": "TK(214)",
+      "task_id": 214,
+      "uav_id": 4
+    },
+    {
+      "op_type": 2,
+      "event": "LD(127)",
+      "task_id": 127,
+      "uav_id": 1
+    },
+    {
+      "op_type": 2,
+      "event": "LD(245)",
+      "task_id": 245,
+      "uav_id": 2
+    },
+    {
+      "op_type": 2,
+      "event": "LD(265)",
+      "task_id": 265,
+      "uav_id": 3
+    },
+    {
+      "op_type": 2,
+      "event": "LD(214)",
+      "task_id": 214,
+      "uav_id": 4
+    },
+    {
+      "op_type": 0,
+      "event": "DEP",
+      "task_id": null,
+      "uav_id": null
+    }
+  ],
+  "event_locations": {
+    "pos_x": [
+      0.0,
+      -0.14152141169665652,
+      -0.14152492410058715,
+      -0.24768278819440093,
+      -0.4613723176624629,
+      -0.46137571806809774,
+      -0.4637351070726812,
+      -0.46374335416165935,
+      -0.4637551011397907,
+      -0.4637635098542343,
+      -0.8621676431655121,
+      -0.8621729044862257,
+      -1.0175199530100825,
+      -1.0175299612066895,
+      -1.2340228380135008,
+      -1.234039250919888,
+      -1.4227291614855733,
+      -1.4227351712230083,
+      -1.4564996219169952,
+      -2.5358895849833805,
+      -2.5359421545812686,
+      -3.1789677962719596,
+      -3.1789848819372097,
+      -3.1789921422184815,
+      -3.4610310402771027,
+      -3.461046807763049,
+      -3.4610498985901517,
+      -3.8999926980347115,
+      -3.8999953492298145,
+      -4.044870028697287,
+      -4.166604163048755,
+      -4.240989576396436,
+      -4.24531785530307,
+      -4.239978355689646,
+      -4.239976657096275,
+      -4.239975405055983,
+      -4.239974199471151,
+      -4.239972885980869,
+      -4.239971518200354,
+      -4.239970325024084,
+      -4.239969177213561,
+      -3.4958705801137513,
+      -0.9604326907044363,
+      -1.1303372624800554,
+      -0.45055553084980016,
+      -0.45054464359693736,
+      -0.3161169239803465,
+      -0.3161066867487903,
+      -0.316107099129848,
+      0.6755359206616209,
+      3.990106171802426,
+      3.99010686956865,
+      4.164523351036182,
+      4.164523735373952,
+      3.9852618798364965,
+      2.2790374471315094,
+      2.279038337194293,
+      2.279057175227143,
+      3.4354785270932657,
+      3.4354973318059283,
+      9.358868216084787,
+      9.35891144270824,
+      9.925490456856565,
+      9.9255088413236,
+      9.925510050123851,
+      9.925515560102854,
+      9.925523312548858,
+      9.925528686262693,
+      9.925533825953114,
+      10.546616450535458,
+      15.246738662298043,
+      17.749904070648313,
+      17.749905807684204,
+      17.749908020204167,
+      17.749911827929505,
+      18.281089016624694,
+      18.281089952113735,
+      18.387601645697657,
+      18.387632199823603,
+      19.022729551431805,
+      19.022732867606283,
+      19.022745772148728,
+      19.022764513317362,
+      19.0651860536747,
+      19.065190288361606,
+      19.06519341988955,
+      19.065196696431663,
+      21.7899536444972,
+      21.93343281521544,
+      21.93348980498422,
+      22.234936785637494,
+      22.23495495093737,
+      24.514291537531616,
+      25.770323052992612,
+      25.770327189476454,
+      27.253943948835502,
+      27.684370113512433,
+      27.68439752881721,
+      35.794411096895146,
+      35.79452429628104,
+      35.79457007183501,
+      35.79458639653275,
+      35.79458844434955,
+      35.79460491943568,
+      35.79518551609084,
+      38.85451114820714,
+      39.31780013999961,
+      39.31780501635656,
+      40.931146621676035,
+      40.931151443432015,
+      40.93115047486065,
+      38.96002026586271,
+      38.90214842269668,
+      38.902125263938274,
+      38.72068487953306,
+      38.72065915926407,
+      36.64968741576513,
+      35.165387232831925,
+      35.16538444288364,
+      35.16535020901589,
+      34.517849956336605,
+      34.51782398387232,
+      30.481349559509958,
+      30.481242239442246,
+      30.071982812012788,
+      30.07193831520939,
+      30.071936058836222,
+      30.07192430826149,
+      28.526792723915516,
+      28.526780637500767,
+      28.526766641542157,
+      28.526755463818482,
+      28.526739668605106,
+      27.60768858972625,
+      27.607688723624765,
+      27.60768902576552,
+      27.607689336116252,
+      28.14688459763041,
+      28.14689477938747,
+      28.522446321031588,
+      28.52245501790118,
+      28.76158011587303,
+      29.202394856990004,
+      32.127176472360986,
+      32.12717831017001,
+      32.30305989216033,
+      32.30306377660487,
+      32.82233976006756,
+      32.822340386977636,
+      33.00106782232341,
+      33.22268491650886,
+      33.22268816933743,
+      33.222688491493024,
+      33.22269153053503,
+      33.22270452425977,
+      33.26080599473494,
+      33.260811372042824,
+      33.26200200499976,
+      33.27402487914093,
+      33.2740247450561,
+      33.274024741304416,
+      21.328623187800414,
+      13.726727614732205,
+      13.502919922907957,
+      9.237444724869848,
+      9.237421457915072,
+      7.709321012143977,
+      0.2977517232129685,
+      0.2977495663974823,
+      0.297743779555784,
+      0.29773680865429775,
+      0.297731438744524,
+      0.29772433219566086,
+      0.29769907831785325,
+      0.2976189113964489,
+      -8.81688736134087,
+      -8.816902849585887,
+      -8.81692451313414,
+      -9.041795937682407,
+      -9.042205577101551,
+      -9.04222777882655,
+      -9.276159876082573,
+      -13.285942835004501,
+      -13.286178895918603,
+      -16.338470382363113,
+      -16.338491826552552,
+      -16.33851645499613,
+      -16.903529986970216,
+      -16.90357038296137,
+      -16.903598993781223,
+      -16.90367986073542,
+      -16.903700455477217,
+      -18.656975643142083,
+      -18.65699545396574,
+      -18.657003990611592,
+      -22.062777516132783,
+      -22.461443569196888,
+      -22.4614756979234,
+      -22.46154439319146,
+      -22.461566900281483,
+      -25.224147511754456,
+      -25.22417913421154,
+      -25.22418137103802,
+      -29.955228474146438,
+      -30.991312512891085,
+      -32.348600988037546,
+      -33.83729468040861,
+      -33.83731734987409,
+      -33.82648732529514,
+      -33.826488232675096,
+      -33.82648668513967,
+      -32.83583397320404,
+      -32.83572724515114,
+      -32.83568948042104,
+      -32.36800746739866,
+      -32.36799195307852,
+      -31.993511412303043,
+      -31.99349600662757,
+      -31.9934961535643,
+      -31.191148703945284,
+      -36.2398663955121,
+      -36.239867662213854,
+      -40.08421746958375,
+      -40.08421866560741,
+      -47.82349795277477,
+      -47.67837124234622,
+      -47.678371921983505,
+      -47.67837079090482,
+      -47.678369513195925,
+      -47.67835952169857,
+      -45.724958763420624,
+      -45.724948331641485,
+      -45.72491560988912,
+      -45.72490731986221,
+      -45.72490517854931,
+      -41.77858045021305,
+      -41.77855949456358,
+      -41.77854484125766,
+      -41.77850357893789,
+      -41.77848150738202,
+      -41.15926195155467,
+      -41.15918238161521,
+      -41.15917973843126,
+      -38.28347308918714,
+      -32.52568978021384,
+      -31.700046117876763,
+      -30.394798442671323,
+      -29.048280711215025,
+      -28.108062308269194,
+      -26.921635900793614,
+      -26.921636403313926,
+      -26.92163664319387,
+      -26.921637067693474,
+      -26.921612878025602,
+      -26.061659892634317,
+      -26.061653662098692,
+      -26.06163606358783,
+      -26.060595536981396,
+      -25.428072292494114,
+      -25.27491049115486,
+      -25.274908615812617,
+      -25.274895022083502,
+      -25.274865790192447,
+      -22.54389234095647,
+      -22.543862886789505,
+      -17.335553867461364,
+      -17.334985679836795,
+      -16.14975020964127,
+      -16.14974547504849,
+      -16.02428468452806,
+      -15.223584562949409,
+      -14.949462484300582,
+      -13.196289058734182,
+      -13.196261583736732,
+      -11.538142517855286,
+      -11.538114373192265,
+      -11.538107528973375,
+      -11.538065057564603,
+      -11.262147286137862,
+      -11.262131606991987,
+      -11.24078373069312,
+      -11.03098707298505,
+      -10.37552449916451,
+      -10.315630780645717,
+      -10.315625819513235,
+      -10.315622200086917,
+      -10.31561791526709,
+      -9.105913083568137,
+      -8.181723727473685,
+      -8.181709165438274,
+      -8.181692046406303,
+      -8.181686124871849,
+      -8.18167141528452,
+      -8.181666142648396,
+      -8.181665408073288,
+      -5.809776806646685,
+      -7.096076409809978,
+      -7.0960765469354845,
+      -8.127693826325398,
+      -8.127693864839728,
+      -9.521097765441745,
+      -6.1143398067459795,
+      -6.114340802952241,
+      -6.114356885999776,
+      -6.328498563301179,
+      -6.328515897567153,
+      -7.101447175325731,
+      -7.10227610353374,
+      -9.353290046868064,
+      -8.469783955905784,
+      -8.469783958104212,
+      -8.469783956689538,
+      -8.469783954949442,
+      -8.469784254628426,
+      -8.469784262760797,
+      -9.01474756331505,
+      -13.522617873337285,
+      -13.660668926125592,
+      -14.547478614614443,
+      -14.965567939474063,
+      -14.965590055861622,
+      -15.730201721757847,
+      -15.730202905209183,
+      -15.730199593864668,
+      -15.636183735651336,
+      -15.636180005774156,
+      -15.586480970021897,
+      -15.579065537927274,
+      -15.120994035878176,
+      -14.333674541358903,
+      -14.333672898597557,
+      -14.333649679132844,
+      -9.027477513055777,
+      -9.027439545692005,
+      -6.6187024503161735,
+      -6.618667577475708,
+      -5.026709434205131,
+      1.6656131821079683,
+      1.6656239759544536,
+      1.6656305461093517,
+      1.6656396867639809,
+      1.6656629844061985,
+      4.177965468145331,
+      4.177996571375141,
+      4.337349595820972,
+      4.337367208865285,
+      6.59677223991568,
+      6.596861215215506,
+      6.5969841151725035,
+      6.597023457745424,
+      6.597072975848377,
+      6.597085981358504,
+      6.597131468376165,
+      9.756876139310268,
+      9.756927128387387,
+      13.55683303878401,
+      14.64073243203112,
+      14.640753571889498,
+      18.288202900905922,
+      18.290777216056618,
+      18.290789254337206,
+      18.82296794302489,
+      18.822978777210068,
+      18.822996075938057,
+      18.823072234393024,
+      21.2130033274555,
+      21.213014545356636,
+      22.845343781216755,
+      22.845346713966187,
+      28.345176137416548,
+      28.345218252373336,
+      29.797626372282288,
+      29.798150995740546,
+      29.839993137997748,
+      29.839995187639293,
+      30.040411159775076,
+      30.04041086092251,
+      30.14066790305378,
+      30.140679147546948,
+      30.140687109594555,
+      30.560070350041176,
+      30.56007523098626,
+      30.560080387939717,
+      31.05099847228417,
+      31.051001085219177,
+      31.6374169394306,
+      33.37468352722723,
+      33.374698984509926,
+      34.34094076486436,
+      34.3409552277748,
+      34.34096149565923,
+      34.34096579986131,
+      34.34096782017302,
+      34.34099571326376,
+      37.3899667500461,
+      37.38999534276545,
+      41.45272148710545,
+      41.45274735260567,
+      46.0809764507131,
+      46.08111707794522,
+      46.08111919723497,
+      46.081148696040245,
+      47.0070318905425,
+      47.0070561331101,
+      47.486136721225385,
+      47.486302805773,
+      50.13874902239573,
+      50.13877274405007,
+      50.13877346120591,
+      50.13876622518285,
+      49.19965858724037,
+      48.65496481026234,
+      42.20798173046598,
+      42.20796354398445,
+      40.37948916897323,
+      32.25649200908593,
+      32.25648957716414,
+      32.25648682454228,
+      32.25648381133879,
+      32.25646469394275,
+      32.25588292788554,
+      32.25583860363424,
+      28.73531201794407,
+      28.735291291594635,
+      28.735286480252235,
+      27.88691059569843,
+      27.886910119441826,
+      26.566334189713675,
+      25.216572669598058,
+      25.216554304886735,
+      22.015251708172993,
+      20.974448996661728,
+      20.9744298130558,
+      16.97428891959968,
+      16.97428736718363,
+      16.97428603690273,
+      16.974284501847126,
+      16.974280774330957,
+      16.97427662890328,
+      16.974269415337687,
+      16.974264019166746,
+      16.108538078586978,
+      16.107814404523147,
+      14.344466774791735,
+      14.344461980993367,
+      12.360681163775205,
+      12.360670180402536,
+      10.954083548097309,
+      10.954083545129283,
+      11.508967215619506,
+      11.669678797926334,
+      12.47667861013273,
+      12.476680463709913,
+      14.689809668790517,
+      15.740292271466501,
+      16.27346524049404,
+      16.273475585743576,
+      16.273487627570095,
+      16.831017949105306,
+      16.83102601950731,
+      16.831030987257957,
+      16.831035606176314,
+      16.83103851561435,
+      17.320949101825803,
+      17.320954269205803,
+      17.320957982493518,
+      17.667180657764785,
+      17.676816129132366,
+      17.67681953488747,
+      17.906708862540768,
+      17.906708527696154,
+      17.906710553131923,
+      17.906712290406688,
+      18.705417923490877,
+      18.70543680721984,
+      20.288026314233257,
+      20.288039993362034,
+      22.364106733478465,
+      22.364111810766715,
+      25.71975949564933,
+      25.71978095222995,
+      25.71979260126889,
+      25.71980603587481,
+      32.52978135000119,
+      32.53024334035447,
+      32.53027979581316,
+      32.53029185570228,
+      32.530300789789365,
+      32.53031465744516,
+      32.530323711478616,
+      32.530325850202935,
+      37.702747260656274,
+      38.1904049326452,
+      44.76557898552206,
+      41.64023216780615,
+      41.64022782830091,
+      39.60083260782092,
+      39.60082980799101,
+      39.6008282334453,
+      39.39823517007956,
+      2.5922064558710836,
+      2.59217830732468,
+      0.6538181561614271,
+      0.6537911887429857,
+      -7.204401619317618,
+      -7.204523927240309,
+      -7.204528628436797,
+      -7.204532415394786,
+      -7.2045371551167525,
+      -7.204564813192475,
+      -11.386770946670934,
+      -11.386798388901331,
+      -11.386847314707964,
+      -12.8692006146333,
+      -19.243110913646728,
+      -19.24317023225354,
+      -19.243182607586284,
+      -19.243191430087787,
+      -19.24320478157106,
+      -19.243213490435064,
+      -19.243218371809164,
+      -24.582792681655963,
+      -25.999539598053076,
+      -25.999577987280656,
+      -33.18873173870465,
+      -33.18875804608641,
+      -38.1871280232407,
+      -38.18716117413785,
+      -38.18716352075632,
+      -38.18745297862783,
+      -43.44815682223707,
+      -43.448170790357075,
+      -50.06511243497435,
+      -50.06513160439766,
+      -52.224219319563616,
+      -52.22423300766218,
+      -52.22423372763397,
+      -52.22423070759344,
+      -50.27708761081442,
+      -50.2770800590528,
+      -48.44766326650672,
+      -48.44765954306148,
+      -47.95204426935464,
+      -47.95204053314876,
+      -47.95203890402198,
+      -46.55148016922333,
+      -44.44450472211916,
+      -44.44448946967553,
+      -40.39553977827366,
+      -40.395525090324696,
+      -38.25487520145323,
+      -38.254846211267775,
+      -38.254844548753965,
+      -38.254843267850525,
+      -38.25484169108566,
+      -38.25483569459364,
+      -38.25482639814962,
+      -35.532570475767386,
+      -31.100698349775158,
+      -31.100675267396934,
+      -29.099440093169036,
+      -29.14158460691473,
+      -29.14158456684638,
+      -29.14158451115466,
+      -29.14158485694189,
+      -29.141584990867276,
+      -29.141585362347485,
+      -25.131517015468397,
+      -30.063836552604297,
+      -30.0638414119875,
+      -33.024982694346136,
+      -33.02498743615152,
+      -34.679225110162115,
+      -32.813270379109156,
+      -32.81327014849495,
+      -32.81326563159842,
+      -26.018859949665348,
+      -26.0188553342376,
+      -9.282228971674787,
+      -9.28222414929224,
+      -9.282183877767775,
+      16.074366656283097,
+      16.074369110204756,
+      16.074370211911962,
+      16.074372428377885,
+      16.074373423387975,
+      16.074375758847253,
+      16.07437673585284,
+      16.074379159307654,
+      17.60193514464843,
+      15.451042476402826,
+      15.451038113367986,
+      14.764266020315185,
+      14.764260706319433,
+      14.764117950244433,
+      14.769819377624863,
+      14.76981735808317,
+      -1.1145469545724502,
+      -5.363915147091166,
+      -7.271991363166977,
+      -8.832778904888632e-07,
+      0.0
+    ],
+    "pos_y": [
+      0.0,
+      -1.6123619886297273,
+      -1.6124004741093756,
+      -2.5158924936807425,
+      -4.114089850706118,
+      -4.114118632733018,
+      -4.131773431024387,
+      -4.131831014380598,
+      -4.131906137647995,
+      -4.13195386342892,
+      -6.324290185871008,
+      -6.324318648470387,
+      -7.179215806175339,
+      -7.179268615683156,
+      -8.240467154165158,
+      -8.240543535586415,
+      -9.052534360633286,
+      -9.05255993874856,
+      -9.197850235730733,
+      -13.702701386820557,
+      -13.702896294712529,
+      -16.070557697461783,
+      -16.070614020463168,
+      -16.070638521686778,
+      -17.021826583064424,
+      -17.02188285882361,
+      -17.021892419551747,
+      -19.134282935460696,
+      -19.134294299620233,
+      -20.3401732294145,
+      -21.694061960053762,
+      -22.95591693269951,
+      -23.28218041652285,
+      -26.053195543042193,
+      -26.0532026326793,
+      -26.053209017491252,
+      -26.053211599232277,
+      -26.05321402845681,
+      -26.053216219860552,
+      -26.05321804771734,
+      -26.053219570112898,
+      -25.988618084774856,
+      -29.918564393582646,
+      -29.615788903430225,
+      -28.92210724368558,
+      -28.92209502555206,
+      -28.784998409072745,
+      -28.78498679595266,
+      -28.78498483903146,
+      -31.649378384908204,
+      -25.974581054498437,
+      -25.97458055758224,
+      -23.268238102165242,
+      -23.26823695311806,
+      -15.534456534678206,
+      -12.634654886201725,
+      -12.634656511713159,
+      -12.63465868357414,
+      -12.758815141583941,
+      -12.75881725370342,
+      -13.395234974033826,
+      -13.395236391280609,
+      -13.085079489573408,
+      -13.085069295289223,
+      -13.085067795922706,
+      -13.085065560346369,
+      -13.085062273066479,
+      -13.085060047162541,
+      -13.085057377242322,
+      -12.973849747397383,
+      -13.353737709576464,
+      -16.51862675659551,
+      -16.518629511664034,
+      -16.518639235746285,
+      -16.518656160857176,
+      -18.668679849464688,
+      -18.668686407177436,
+      -18.95483217123903,
+      -18.954930711593896,
+      -20.65939881630484,
+      -20.659411774844937,
+      -20.659451096224018,
+      -20.65950778667788,
+      -20.772079055468897,
+      -20.772086826679846,
+      -20.772092631443698,
+      -20.77209836336789,
+      -24.14619132242442,
+      -24.31787506631934,
+      -24.317940112630737,
+      -24.654092365174442,
+      -24.65411234927865,
+      -27.195895039742428,
+      -28.51675027671432,
+      -28.516752926620352,
+      -29.169366978435306,
+      -29.33473117371363,
+      -29.334741403409655,
+      -32.450457302761095,
+      -32.4505021741558,
+      -32.45051671077565,
+      -32.45052191847665,
+      -32.45052150789329,
+      -32.4505123822952,
+      -32.450170878475284,
+      -28.66696401246682,
+      -26.51990137226576,
+      -26.51987857995436,
+      -19.037687456521322,
+      -19.03766422447932,
+      -19.03766238246812,
+      -18.440673346530666,
+      -18.420065159782254,
+      -18.420056818343195,
+      -18.35544291837907,
+      -18.355433298324105,
+      -17.61796779183672,
+      -16.976106850534823,
+      -16.976106804777668,
+      -16.976092268398908,
+      -16.719047767586595,
+      -16.71903720664307,
+      -15.116110419972438,
+      -15.116062743935327,
+      -14.915868021782915,
+      -14.915844777926738,
+      -14.91584242444002,
+      -14.915818948051637,
+      -11.887073781572505,
+      -11.887049728134176,
+      -11.887018920025351,
+      -11.886995662875602,
+      -11.886959845554157,
+      -9.849218390353089,
+      -9.849215404600736,
+      -9.849212400541532,
+      -9.849208864248698,
+      -8.49797738147862,
+      -8.497956541544593,
+      -7.666468136696639,
+      -7.666462679753091,
+      -6.326037901210232,
+      -6.371280134865026,
+      -11.160819689242931,
+      -11.160822714030765,
+      -12.088988134622072,
+      -12.089012082605294,
+      -15.440801388409316,
+      -15.440812789061237,
+      -17.069665042704226,
+      -19.82415210486515,
+      -19.824190984298898,
+      -19.824200939808406,
+      -19.82426361503405,
+      -19.824519166290877,
+      -22.034902359118366,
+      -22.03504482761896,
+      -25.23979798500495,
+      -28.54523852538617,
+      -28.54526588969,
+      -28.545268249002277,
+      -41.79654666902794,
+      -43.054819408651,
+      -43.01634378368078,
+      -42.56402259347748,
+      -42.56402053259275,
+      -42.401923637527204,
+      -41.75451689880451,
+      -41.75451582258204,
+      -41.75451355584593,
+      -41.754510693284146,
+      -41.7545085522933,
+      -41.754505771371186,
+      -41.75449208625197,
+      -41.75444986223788,
+      -36.427257296604076,
+      -36.42724881859097,
+      -36.427235747483216,
+      -36.29125517778805,
+      -36.290990699122844,
+      -36.290975029651754,
+      -36.105837564397646,
+      -32.754421850241734,
+      -32.7542145542144,
+      -29.96460396966318,
+      -29.96458445050275,
+      -29.96456078603395,
+      -29.47389746934546,
+      -29.473859348245732,
+      -29.4738336380955,
+      -29.473758705478232,
+      -29.473739817048678,
+      -27.859566596264504,
+      -27.859548371026687,
+      -27.85954150491608,
+      -25.272714959282162,
+      -24.98948534738191,
+      -24.989462684192034,
+      -24.98941549845651,
+      -24.98940015011551,
+      -23.097630147482562,
+      -23.097608396486137,
+      -23.097607315710825,
+      -18.947189631933014,
+      -18.079389678659155,
+      -16.103907566094414,
+      -13.541693241864543,
+      -13.541628444935407,
+      -8.26709838755094,
+      -8.267079017353904,
+      -8.267077976768743,
+      -13.636914176424826,
+      -13.636953579848795,
+      -13.636984871030844,
+      -14.00647418445376,
+      -14.006486524824165,
+      -14.302344625845409,
+      -14.302356973529903,
+      -14.302358747667448,
+      -7.892158358827582,
+      -2.6788250055237586,
+      -2.678823436279014,
+      0.707241183864241,
+      0.7072426109775019,
+      7.518099002574007,
+      7.487085579903464,
+      7.48708760890887,
+      7.487093265055769,
+      7.487101258559969,
+      7.487125648008812,
+      12.189195420350195,
+      12.189220953613045,
+      12.189295053283505,
+      12.189313598089699,
+      12.189316052250664,
+      14.02476760256102,
+      14.024775545616668,
+      14.024781640613918,
+      14.024798565325284,
+      14.024808356566275,
+      14.29782712034997,
+      14.297865848706687,
+      14.297865695079018,
+      15.116111311214409,
+      17.597631214741615,
+      18.107268419509168,
+      19.262891748007334,
+      21.0896579391394,
+      23.17029933843295,
+      26.433226730954168,
+      26.43322913770413,
+      26.433231604808853,
+      26.43323432866968,
+      26.433313881526274,
+      29.916500612086907,
+      29.91652563968905,
+      29.916599039624995,
+      29.92141938928411,
+      32.061100133221544,
+      32.50261000428139,
+      32.50261083946598,
+      32.50260906624988,
+      32.502605122276485,
+      31.815190858426394,
+      31.81518023664507,
+      29.31399633611195,
+      29.313700025396006,
+      28.681536774465854,
+      28.681533511383527,
+      28.561325399713716,
+      27.77451891899744,
+      27.487522147114504,
+      25.590659520155548,
+      25.59062973894362,
+      23.79667875488112,
+      23.796648363126774,
+      23.796639970352764,
+      23.79657759135077,
+      23.373654882701327,
+      23.373630829133585,
+      23.340837239534267,
+      22.99699190948224,
+      21.894183480357363,
+      21.786122620166207,
+      21.786111407888754,
+      21.786103208102947,
+      21.786093285139813,
+      19.02327214830708,
+      16.697992752001387,
+      16.697956044561163,
+      16.697908775175495,
+      16.69789256095668,
+      16.697851538632072,
+      16.697836914405926,
+      16.69783493965089,
+      13.595577781841952,
+      7.323359745927869,
+      7.323358870269116,
+      4.306691697045242,
+      4.3066908429829365,
+      -0.9935091107193292,
+      -7.115675661231975,
+      -7.115674161252381,
+      -7.115673579684468,
+      -7.116351746784723,
+      -7.116351442748567,
+      -7.1186828436652,
+      -7.116987618576459,
+      -11.189699729432762,
+      -11.04724171015651,
+      -11.047243549703317,
+      -11.047245144219143,
+      -11.047247134527048,
+      -11.047249140933317,
+      -11.047251165565129,
+      -11.057439982471957,
+      -10.485780254847917,
+      -9.4639811107234,
+      -8.048871979853569,
+      -6.70639151229995,
+      -6.706357832531406,
+      -3.659835357371387,
+      -3.659833016111507,
+      -3.6597802118623797,
+      -2.3561848263601872,
+      -2.3561428572057412,
+      -1.837149251451454,
+      -1.7866078398429766,
+      0.7598168383209791,
+      4.226052570342378,
+      4.226056189001761,
+      4.226090615482741,
+      11.814548170376854,
+      11.814601455473781,
+      15.087009504278647,
+      15.087055936110449,
+      17.15358517415322,
+      25.471425203416764,
+      25.471437625015458,
+      25.471445378801302,
+      25.471455589326993,
+      25.47148424779131,
+      28.511925786886394,
+      28.511964264759577,
+      28.7051442598699,
+      28.705165618200436,
+      31.444405522089593,
+      31.444509466642174,
+      31.444657600069256,
+      31.444703362283732,
+      31.444763351187675,
+      31.44477899217386,
+      31.444834039127795,
+      35.07167599208061,
+      35.07173088007313,
+      38.92935352271417,
+      39.97152578803412,
+      39.97154620593714,
+      43.47839594301624,
+      43.480942934293424,
+      43.480953212791256,
+      43.960789080095985,
+      43.96079735927453,
+      43.96080916134667,
+      43.9608613618646,
+      45.44089307242254,
+      45.44090023516189,
+      46.30697181155924,
+      46.30697293863495,
+      45.90203066566355,
+      45.901997037958694,
+      40.20844850027221,
+      40.20701144674793,
+      39.94893042529491,
+      39.94891783817186,
+      38.571232314337564,
+      38.57122892078686,
+      38.075131546407334,
+      38.07505644070267,
+      38.075012366636656,
+      35.5494964408738,
+      35.54946846300107,
+      35.54943795893336,
+      33.41809476555859,
+      33.41808740666363,
+      32.272843310207925,
+      29.189097160587078,
+      29.189069866854066,
+      27.474096703537867,
+      27.4740710917265,
+      27.474062248796187,
+      27.474056126495576,
+      27.4740543246535,
+      27.474043470375264,
+      26.343437004107106,
+      26.343426143801217,
+      24.83679664712881,
+      24.836786636610306,
+      23.120527208773066,
+      23.1204664222596,
+      23.120466792832918,
+      23.120454434603445,
+      22.77131561714742,
+      22.77130611580881,
+      22.590661634565727,
+      22.590601605116614,
+      21.33930365440542,
+      21.339292106938267,
+      21.339290203365568,
+      21.339267132363265,
+      18.05188486959893,
+      16.97406361847385,
+      11.646974746841865,
+      11.64696012775445,
+      10.13643915067522,
+      7.039202276300323,
+      7.03920235162426,
+      7.0392028430181135,
+      7.039203630398586,
+      7.039217395243471,
+      7.0396483298504435,
+      7.0396855175786275,
+      9.777925845366019,
+      9.777941351791224,
+      9.777947295925614,
+      10.373520690606503,
+      10.373522649424071,
+      9.920586870091022,
+      10.208189095224625,
+      10.208192540313226,
+      10.884527680463927,
+      10.0723264789874,
+      10.072318606340945,
+      5.332124552228112,
+      5.332122546747747,
+      5.332120764462262,
+      5.332118510884151,
+      5.332115320393806,
+      5.3321113845595125,
+      5.332106269110082,
+      5.332101423957644,
+      4.487945587801672,
+      4.487071403158911,
+      2.102853409468234,
+      2.102851909166817,
+      2.507210880702191,
+      2.5072221578428584,
+      5.589258572104381,
+      5.589264219625758,
+      8.199603188641047,
+      8.901433745667468,
+      12.16000409832056,
+      12.160009864625072,
+      18.419674201513224,
+      21.3976379743972,
+      23.06403132671504,
+      23.06406120122214,
+      23.064100776409106,
+      24.86557767878101,
+      24.86560385673385,
+      24.86561928704857,
+      24.865634887016544,
+      24.865646465779946,
+      27.52493965896254,
+      27.52498050730584,
+      27.525007511495495,
+      30.06509421127246,
+      30.125523514300728,
+      30.125557421559474,
+      31.651110896897027,
+      31.65111476987131,
+      31.65113042865899,
+      31.651140090997302,
+      33.27470238888665,
+      33.27473050204367,
+      35.125598932434094,
+      35.12560992726388,
+      36.3920112733256,
+      36.392012773721135,
+      36.766182776708405,
+      36.766184812221205,
+      36.766185967366155,
+      36.766187342519736,
+      37.2843610797393,
+      37.28438847569653,
+      37.28439087651841,
+      37.28439103174726,
+      37.2843911125487,
+      37.2843913005591,
+      37.28439146504397,
+      37.28439130704102,
+      38.24965792455307,
+      38.467289533663084,
+      38.9101129299233,
+      41.44745906346059,
+      41.44745902240161,
+      42.85759889190182,
+      42.857599409916446,
+      42.85760060014944,
+      42.85425081982544,
+      41.560985790655266,
+      41.56098488661174,
+      41.49283625844622,
+      41.49283548170581,
+      41.21661962954608,
+      41.21661970738146,
+      41.21661862153462,
+      41.21661805715269,
+      41.21661720052406,
+      41.21661658072316,
+      41.126108174870325,
+      41.12610749058785,
+      41.126107254152146,
+      41.06644229505026,
+      41.00756380081096,
+      41.00756243357513,
+      41.007562997361894,
+      41.00756326879987,
+      41.00756369636279,
+      41.00756400500662,
+      41.00756385115318,
+      39.79221597687174,
+      39.41653185268602,
+      39.41652195926524,
+      37.465077943122154,
+      37.46507084995087,
+      36.108291304994765,
+      36.10828208986758,
+      36.10828041710353,
+      36.10778655578013,
+      27.177301681586528,
+      27.17727800634887,
+      15.944499071637907,
+      15.944467032714691,
+      12.16296338029051,
+      12.162939393792652,
+      12.16293617230783,
+      12.16290730052624,
+      -7.220090366035343,
+      -7.22015620792569,
+      -20.76266890278935,
+      -20.762697463421922,
+      -24.431452314553614,
+      -24.43147969469856,
+      -24.431484190344065,
+      -27.067918909909366,
+      -30.659900647166545,
+      -30.6599261710194,
+      -37.56230750095885,
+      -37.562332034233556,
+      -41.21167660756898,
+      -41.211727885380654,
+      -41.211728684295494,
+      -41.21172950009112,
+      -41.211730342171464,
+      -41.21173044860423,
+      -41.21173075463723,
+      -40.754897462836354,
+      -38.32838863619001,
+      -38.328373387574814,
+      -30.648164464745438,
+      -30.59389486691964,
+      -30.593892036346933,
+      -30.5938898498813,
+      -30.593887954510087,
+      -30.593886443473824,
+      -30.593884506302263,
+      -32.251552763519754,
+      -32.625217290361704,
+      -32.62521791288199,
+      -32.8497990511921,
+      -32.849799842377045,
+      -32.97563926558845,
+      -19.84633788390189,
+      -19.84633998781461,
+      -19.846341674412063,
+      -21.659263003493017,
+      -21.65926409032363,
+      -26.0998663868293,
+      -26.0998677743677,
+      -26.09984083180848,
+      -30.43806910591906,
+      -30.438067590991878,
+      -30.438066963421374,
+      -30.438065557003085,
+      -30.438064536364312,
+      -30.438063227968193,
+      -30.438061998100558,
+      -30.43806081765395,
+      7.7357557567820425,
+      19.558899622711074,
+      19.558939583475603,
+      23.034531825492202,
+      23.034594553914552,
+      23.035214423785046,
+      25.458004544189524,
+      25.458006571474165,
+      40.069447075731645,
+      41.523205118014396,
+      37.97732605779176,
+      2.4442418636283377e-06,
+      0.0
+    ],
+    "times": [
+      0.0,
+      0.19445725305687478,
+      0.1944620896564876,
+      0.3037535629208775,
+      0.4974681945764751,
+      0.49747188368872197,
+      0.4996119602123439,
+      0.49961916329182976,
+      0.4996284774221594,
+      0.4996344942886821,
+      0.76733335221179,
+      0.7673370187206403,
+      0.8717255410240552,
+      0.8717321975689477,
+      1.0018496316981016,
+      1.001859223474818,
+      1.1020103883438124,
+      1.1020137438437019,
+      1.1199340829485755,
+      1.6764612031771713,
+      1.6764856382304503,
+      1.971237918758713,
+      1.9712451849825734,
+      1.9712484672395945,
+      2.0904410623568346,
+      2.0904483008420756,
+      2.0904497092618186,
+      2.3496513366577747,
+      2.34965297806586,
+      2.4955680951978723,
+      2.6588793318938744,
+      2.810740769447731,
+      2.8499414920505988,
+      3.1828492997019113,
+      3.1828504506044983,
+      3.1828515187621984,
+      3.1828520892512455,
+      3.182852672023664,
+      3.1828532076647855,
+      3.1828537136710695,
+      3.182854160294714,
+      3.272595534777006,
+      3.921219421736415,
+      3.962939990917885,
+      4.079627675434972,
+      4.07963238929897,
+      4.102703973121878,
+      4.102708441312443,
+      4.102708850680855,
+      4.4668828795278195,
+      5.919030774868505,
+      5.919037561691968,
+      6.534661186396055,
+      6.534667906281132,
+      7.7301061367065405,
+      8.134326755103094,
+      8.134327157616834,
+      8.134331405443735,
+      8.274063767684478,
+      8.274068037525874,
+      8.989793915099408,
+      8.98980300777278,
+      9.06740726685346,
+      9.06741495315241,
+      9.067415384923303,
+      9.0674165676381,
+      9.067418057480504,
+      9.06741923153321,
+      9.067420373559505,
+      9.14322583300668,
+      9.709737988688103,
+      10.194532142677982,
+      10.194532854786223,
+      10.194534468412368,
+      10.194536965412798,
+      10.460605176930056,
+      10.460606211924363,
+      10.49728810915108,
+      10.497300791179653,
+      10.71582720034138,
+      10.715829050700492,
+      10.715834284969871,
+      10.715841693116785,
+      10.730294550910132,
+      10.730295811559944,
+      10.73029681092089,
+      10.730297785307606,
+      11.25133002706325,
+      11.278210667770331,
+      11.278221314883508,
+      11.332466440331633,
+      11.332469926326924,
+      11.74263571614537,
+      11.961614493283273,
+      11.961615261308028,
+      12.156337933909978,
+      12.211734126318564,
+      12.21173795485951,
+      13.255496117748901,
+      13.255511084309376,
+      13.255517145101262,
+      13.255519508951668,
+      13.255519949756343,
+      13.255523565577423,
+      13.255606103625366,
+      13.840133440800475,
+      14.104018083091923,
+      14.104022552997106,
+      15.02358646282718,
+      15.023591003890495,
+      15.023591456598892,
+      15.271024237145362,
+      15.278404956186995,
+      15.278408324874029,
+      15.30154773407212,
+      15.301551433278068,
+      15.565660273822074,
+      15.75994184830639,
+      15.759942370068375,
+      15.759947158521866,
+      15.843642884678232,
+      15.843646573907098,
+      16.365422095557687,
+      16.36543654509648,
+      16.420172137307997,
+      16.420178506532416,
+      16.420179085323788,
+      16.42018257099365,
+      16.828668165192152,
+      16.828671726675054,
+      16.828676089037735,
+      16.82867952358757,
+      16.828684535131515,
+      17.097244383899785,
+      17.097244959428803,
+      17.097245568963714,
+      17.0972462297189,
+      17.272029752870985,
+      17.272033174061686,
+      17.381645112780543,
+      17.381647154977497,
+      17.578617372409706,
+      17.631857600448118,
+      18.30608432295823,
+      18.306085080508023,
+      18.41957868158924,
+      18.419581907615743,
+      18.827066509077277,
+      18.82706810785003,
+      19.023931441642485,
+      19.35592214665353,
+      19.355927085070537,
+      19.355928443286423,
+      19.355936244059652,
+      19.355967177104166,
+      19.62155999091513,
+      19.621577309753487,
+      20.006593242091935,
+      20.40370820820684,
+      20.403711760889454,
+      20.403712238180354,
+      22.547084817445224,
+      23.472797450487494,
+      23.500082516434478,
+      24.015406752374,
+      24.0154107789934,
+      24.200026494877154,
+      25.093836398681887,
+      25.093836854223458,
+      25.09383781815935,
+      25.093838907711845,
+      25.093839806643377,
+      25.093840912261587,
+      25.093844589695056,
+      25.093855673826052,
+      26.362179520530837,
+      26.362181813307604,
+      26.362185061272182,
+      26.393756386555417,
+      26.393815183350362,
+      26.39381861318252,
+      26.429659728360612,
+      27.05749761252033,
+      27.057535546736382,
+      27.55431291998405,
+      27.554316588557906,
+      27.554320851718845,
+      27.644224057178487,
+      27.644230888804323,
+      27.64423569929827,
+      27.644249104446395,
+      27.644252649012497,
+      27.930565083470608,
+      27.930568501618424,
+      27.930569971282335,
+      28.44437964524561,
+      28.503131780551268,
+      28.503136723313542,
+      28.5031469242212,
+      28.503150426259356,
+      28.90540344133435,
+      28.905408283829438,
+      28.90540875943288,
+      29.661510421526607,
+      29.823879285029943,
+      30.111832805974547,
+      30.467842622865692,
+      30.467853522578704,
+      31.101535034316694,
+      31.101539528123848,
+      31.101539955617753,
+      31.75755866449853,
+      31.757575506102732,
+      31.757584088080968,
+      31.829192206262235,
+      31.829196168483822,
+      31.886534485176924,
+      31.88653841708821,
+      31.8865388018867,
+      32.66267255357094,
+      33.68257159010518,
+      33.68257819275872,
+      34.43476410016452,
+      34.43477070644245,
+      35.82944642366504,
+      35.84728595409723,
+      35.847286351421246,
+      35.8472873725073,
+      35.847288663419675,
+      35.84729225753999,
+      36.45900206852915,
+      36.459005813169966,
+      36.4590159525529,
+      36.45901880341939,
+      36.45901939706104,
+      36.98189841380915,
+      36.981901415783874,
+      36.98190366525022,
+      36.98190934557169,
+      36.98191261692367,
+      37.06321534710833,
+      37.06322637973197,
+      37.063226879745486,
+      37.42242549913561,
+      38.17566993321814,
+      38.29223788750665,
+      38.50167865157505,
+      38.7743234112647,
+      39.04862775660173,
+      39.465742879399265,
+      39.46574336780848,
+      39.46574389670776,
+      39.46574441899547,
+      39.46575500304774,
+      39.896786671688545,
+      39.89679029452178,
+      39.8967998474523,
+      39.89739295297786,
+      40.165449271572015,
+      40.221593468989376,
+      40.22159394100727,
+      40.22159593819549,
+      40.22159983595868,
+      40.55993064112593,
+      40.559934734659635,
+      41.25406795269108,
+      41.25414524963918,
+      41.41552636025911,
+      41.41552723733657,
+      41.436402076313904,
+      41.57126779917424,
+      41.61894820873693,
+      41.92926299352443,
+      41.929268065870886,
+      42.22275218419982,
+      42.22275736734739,
+      42.22275882825639,
+      42.22276809140768,
+      42.283434772648825,
+      42.28343841458309,
+      42.28813962027039,
+      42.33653124252819,
+      42.490656981944966,
+      42.50550025229636,
+      42.50550189047892,
+      42.50550314839337,
+      42.50550461261422,
+      42.86785006694334,
+      43.168463013342205,
+      43.16846798234739,
+      43.16847421725876,
+      43.168476501142976,
+      43.168481934016064,
+      43.16848401026364,
+      43.16848441375992,
+      43.63764974194608,
+      45.14505681438333,
+      45.14506357412255,
+      46.06971490953577,
+      46.06972165279316,
+      47.36371780221709,
+      48.20544566928571,
+      48.20544605357389,
+      48.205450327636655,
+      48.23118078584998,
+      48.23118524110903,
+      48.324048452587036,
+      48.32428476794132,
+      48.88377191626321,
+      48.99129620921833,
+      48.99129662939641,
+      48.991297062149854,
+      48.99129751704455,
+      48.99129802478672,
+      48.991298507052335,
+      49.05678521340173,
+      49.60270020982851,
+      49.72658158068157,
+      49.92721830798923,
+      50.096145054676775,
+      50.09615088736914,
+      50.47350950846792,
+      50.473510013840816,
+      50.47351674391955,
+      50.63053641406053,
+      50.630541832024946,
+      50.693178730079914,
+      50.69931607808435,
+      51.01015155334348,
+      51.437188976516225,
+      51.43718963722423,
+      51.437194829069284,
+      52.5496332753289,
+      52.54964135878665,
+      53.03780595592879,
+      53.03781314599141,
+      53.351209589103725,
+      54.633794372284505,
+      54.633796473830614,
+      54.63379787095835,
+      54.633799659553034,
+      54.63380426978392,
+      55.107644755793714,
+      55.10765088351377,
+      55.137736625943695,
+      55.13774011904816,
+      55.56433241399671,
+      55.564349031364735,
+      55.56437229436438,
+      55.56437971423803,
+      55.56438920774596,
+      55.564391822888645,
+      55.56440054562855,
+      56.14229236930378,
+      56.14230152525697,
+      56.79283535574987,
+      56.973482346030565,
+      56.973486063023834,
+      57.58136886705395,
+      57.58180412917106,
+      57.581806207246274,
+      57.6678930545074,
+      57.66789489638376,
+      57.66789764786176,
+      57.66790896492662,
+      58.00563135307423,
+      58.00563319664567,
+      58.227633229065646,
+      58.22763390318864,
+      58.890174320212004,
+      58.89018244744788,
+      59.596108043642815,
+      59.59629335443071,
+      59.62770524339926,
+      59.62770732560203,
+      59.79496374869342,
+      59.79496435520148,
+      59.85577012598895,
+      59.85577947911702,
+      59.8557851185711,
+      60.163353075330846,
+      60.163356744097534,
+      60.163360673578076,
+      60.42612280100177,
+      60.42612391652768,
+      60.58070091056432,
+      61.00592486460255,
+      61.0059288756765,
+      61.242415413302055,
+      61.242419190263135,
+      61.24242070061363,
+      61.24242182076474,
+      61.2424223094561,
+      61.24242625344274,
+      61.633099801539764,
+      61.63310382202334,
+      62.15367711905957,
+      62.15368080008337,
+      62.74671074799711,
+      62.746729515666864,
+      62.746729955686796,
+      62.74673434345594,
+      62.865615266591576,
+      62.86561893875696,
+      62.92713142383274,
+      62.92715332108055,
+      63.279495418660495,
+      63.27949920752721,
+      63.27949963346481,
+      63.27950400569597,
+      63.690247595307774,
+      63.835335849747224,
+      64.8400719739584,
+      64.84007637971153,
+      65.12501265920682,
+      66.16943575778987,
+      66.16943622513631,
+      66.16943682699926,
+      66.16943740774607,
+      66.16944084679238,
+      66.16952845252997,
+      66.1695360668874,
+      66.7053626431107,
+      66.70536633906107,
+      66.70536763802305,
+      66.82989890059896,
+      66.82989936998561,
+      66.99762863381518,
+      67.1634324448055,
+      67.16343740121445,
+      67.55653307060487,
+      67.71514628160462,
+      67.71514974411679,
+      68.46030890488164,
+      68.46030940169068,
+      68.4603098965783,
+      68.46031042483104,
+      68.46031131201745,
+      68.46031226133375,
+      68.46031368059572,
+      68.46031484770052,
+      68.60558333980553,
+      68.60572031452826,
+      68.96198708823282,
+      68.96198810076532,
+      69.20522166801267,
+      69.20522449468807,
+      69.61223660509691,
+      69.61223767319433,
+      69.93284851741531,
+      70.01934845049772,
+      70.42265667905393,
+      70.4226576130232,
+      71.22030565936139,
+      71.59968211769838,
+      71.80987882154298,
+      71.80988277847106,
+      71.80988797099879,
+      72.03644352422444,
+      72.03644702731961,
+      72.03644912245656,
+      72.03645126427506,
+      72.03645286702557,
+      72.36131404102254,
+      72.36131919065119,
+      72.36132269050124,
+      72.6693079398961,
+      72.6766598011635,
+      72.67666411828554,
+      72.86201203789604,
+      72.86201272710179,
+      72.8620150120587,
+      72.86201657562779,
+      73.0793950550908,
+      73.07939960673382,
+      73.37196502098726,
+      73.37196752977849,
+      73.66412617302468,
+      73.66412704492357,
+      74.06976972604383,
+      74.06977251525129,
+      74.06977415580477,
+      74.06977596245939,
+      74.89028446033535,
+      74.89034027586452,
+      74.890344927109,
+      74.8903465468995,
+      74.8903478441495,
+      74.89034970252297,
+      74.89035101813133,
+      74.89035145958404,
+      75.52249101490717,
+      75.58664973997351,
+      76.37838377991531,
+      76.86706836391205,
+      76.86707529476713,
+      77.16952135802703,
+      77.16952763283639,
+      77.16952804901902,
+      77.19387099882347,
+      81.61843731008219,
+      81.61844101871694,
+      81.85145764210567,
+      81.85146119673789,
+      82.79611939886401,
+      82.79613442865342,
+      82.79613509956492,
+      82.79613574153176,
+      82.79613648209262,
+      82.79613999337225,
+      83.29870362505805,
+      83.29870712010666,
+      83.29871317163753,
+      83.47694593511854,
+      84.2427336146533,
+      84.24274096623861,
+      84.2427426085201,
+      84.24274385087973,
+      84.24274562087945,
+      84.24274685048977,
+      84.24274758909506,
+      84.90064566367072,
+      85.07673492551234,
+      85.076739953175,
+      85.97169114653701,
+      85.9716946756469,
+      86.59392360008134,
+      86.5939280067729,
+      86.59392850668064,
+      86.59399757102277,
+      87.83921094228386,
+      87.83921455504324,
+      89.40544713092228,
+      89.40545195665177,
+      89.9285939064722,
+      89.92859756138216,
+      89.92859808879506,
+      89.9286018093113,
+      92.26897503775946,
+      92.26898326328643,
+      93.91074446983941,
+      93.91074820215769,
+      94.3555123787433,
+      94.35551597598194,
+      94.35551666365652,
+      94.7141745151503,
+      95.21447345284561,
+      95.21447731734047,
+      96.17586585976727,
+      96.17586958090111,
+      96.68415978201905,
+      96.68416714584676,
+      96.68416754760742,
+      96.68416793317147,
+      96.6841683361861,
+      96.68416963762215,
+      96.68417135573883,
+      97.01579793674595,
+      97.62282663679296,
+      97.62283589402921,
+      98.57634976996687,
+      98.5846117464948,
+      98.58461233585892,
+      98.58461287260225,
+      98.58461328374491,
+      98.58461366806611,
+      98.58461406208103,
+      99.10593001739856,
+      99.70022753000154,
+      99.70023376482925,
+      100.05703915554481,
+      100.05704531605315,
+      100.25639292080251,
+      101.84959330309017,
+      101.84959369064201,
+      101.84959992163873,
+      102.69452145366532,
+      102.69452775575294,
+      104.77490535653183,
+      104.77491167370091,
+      104.77492268680547,
+      107.86549990172838,
+      107.86550034227844,
+      107.86550076002098,
+      107.86550120138477,
+      107.86550163084536,
+      107.8655020941479,
+      107.86550255633139,
+      107.86550301125192,
+      112.45533686542713,
+      113.89907151340286,
+      113.89907762467408,
+      114.32470636640622,
+      114.32471534296276,
+      114.32479285653402,
+      114.61586672696477,
+      114.61586716990331,
+      117.20877936055611,
+      117.74835251893755,
+      118.23211915646868,
+      122.87756843939685,
+      122.87756894599008
+    ]
+  }
+}

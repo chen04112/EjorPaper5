@@ -35,7 +35,7 @@ The records support the aggregate computational comparisons reported in the manu
 - Auxiliary fixed-buffer and staged nominal replanning probe.
 - Appendix tiny monolithic validation note.
 
-The generated layouts are stylized, inspection-inspired computational instances. They are included for traceability of algorithmic comparisons and should not be interpreted as field-calibrated operator data. The representative large-instance spatial and timing figures in the manuscript are diagnostic visualizations rather than aggregate comparison tables; no separate seed-level aggregate table is claimed for those figures in this supplement.
+The generated layouts are stylized, inspection-inspired computational instances. They are included for traceability of algorithmic comparisons and should not be interpreted as field-calibrated operator data. The representative large-instance spatial and timing figures in the manuscript are diagnostic visualizations rather than aggregate comparison tables; no separate seed-level aggregate table is claimed for those figures in this supplement. Their fixed seeds, generated instances, plan records, summary CSV, and regeneration script are provided in `../large_diagnostics/` and `../reproduce_large_diagnostics.py`.
 
 ## How To Trace Manuscript Items
 

@@ -16,9 +16,15 @@ for the manuscript:
   the generated instance families.
 - `reproduce_pair_perimeter_lb.py`: portable check that recomputes the
   pair-perimeter lower bounds reported in the manuscript.
+- `reproduce_large_diagnostics.py`: regenerates the Supplementary Appendix S.7
+  large-instance diagnostic cases from fixed seeds, solves them with the
+  submitted PLNS-SOCP code, and writes instance/plan/result records.
+- `large_diagnostics/`: reproducible records for the n=200, n=300, and n=400
+  diagnostic figures, including generated instances, realized plans, summary
+  CSV, figures, and SHA-256 manifest.
 - `diagnostic_figures/`: large-instance diagnostic figures referenced in the
-  Supplementary Appendix. These figures are illustrative diagnostics, not an
-  aggregate scalability table.
+  Supplementary Appendix. These are convenience copies of the figures generated
+  by `reproduce_large_diagnostics.py`.
 
 ## Quick Check
 
@@ -27,11 +33,13 @@ Install the minimal Python requirements and run:
 ```bash
 pip install -r requirements.txt
 python reproduce_pair_perimeter_lb.py
+python reproduce_large_diagnostics.py --max-iter 12 --repair-k 5
 ```
 
-The script recomputes the lower-bound values for the benchmark instances and
-prints `MATCH` for the reported values. A MOSEK installation with a valid license
-is required for the conic solves.
+The first script recomputes the lower-bound values for the benchmark instances
+and prints `MATCH` for the reported values. The second script regenerates the
+large diagnostic records and figures from fixed seeds. A MOSEK installation with
+a valid license is required for the conic solves.
 
 For the instance-to-table map and additional reproduction notes, see
 `REPRODUCE.md`.

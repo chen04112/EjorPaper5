@@ -71,3 +71,34 @@ remain the authoritative benchmark; the generator documents how such families ar
   seconds-level certified component.
 - `data_dictionary.csv`, `source_file_index.csv`, `manifest.json` -- field definitions,
   file-to-experiment mapping, and file-level SHA-256 manifests.
+
+## 4. Large diagnostic figures in Supplementary Appendix S.7
+
+The large-instance visual diagnostics are reproducible from fixed seeds. They
+are representative stress runs and are not used as aggregate scalability tables.
+The submitted artifact includes:
+
+- `reproduce_large_diagnostics.py` -- regeneration script;
+- `large_diagnostics/instances/` -- generated n=200, n=300, and n=400 instance
+  JSON files;
+- `large_diagnostics/plans/` -- realized event orders, event locations, event
+  times, objectives, effective speeds, and solver settings;
+- `large_diagnostics/results/large_diagnostic_summary.csv` -- one row per case;
+- `large_diagnostics/figures/` -- individual figures and triptychs;
+- `large_diagnostics/manifest.json` -- SHA-256 hashes for the generated files.
+
+The fixed cases are:
+
+| n | L | instance/run seed |
+|---:|---:|---:|
+| 200 | 3 | 22260128 |
+| 300 | 4 | 23260128 |
+| 400 | 5 | 24260128 |
+
+To regenerate the records and figures from the repository root:
+
+```bash
+python reproduce_large_diagnostics.py --max-iter 12 --repair-k 5
+```
+
+A MOSEK installation with a valid license is required.

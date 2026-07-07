@@ -1,6 +1,7 @@
 # Core scientific stack
 numpy>=1.24,<3
 scipy>=1.10
+matplotlib>=3.7
 
 # Second-order cone / mixed-integer conic solver -- COMMERCIAL LICENSE REQUIRED.
 # Free academic licenses: https://www.mosek.com
