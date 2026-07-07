@@ -1,0 +1,2 @@
+file,instance_id,n,L,status,cert_ub,cert_lb,cert_gap,cert_time
+Example3_6_1_bundle_separate_depot.json,Example 3_6_1,5,3,OK,12340.1860399565,12340.186039956498,1.474037261396319e-16,34.96129840007052

@@ -1,0 +1,186 @@
+{
+  "supplement_title": "Supplementary Computational Results",
+  "generated_at_local": "2026-04-18T12:38:49",
+  "scope_note": "Records support aggregate comparisons reported in the manuscript. Generated layouts are stylized computational instances and should not be read as field-calibrated operator data.",
+  "primary_files": [
+    "Supplementary_Computational_Results.xlsx",
+    "computational_results_all_records.csv",
+    "aggregate_reproduction_checks.csv",
+    "data_dictionary.csv",
+    "source_file_index.csv",
+    "small_template_validation.csv",
+    "raw_records/"
+  ],
+  "files": [
+    {
+      "file": "aggregate_reproduction_checks.csv",
+      "bytes": 19605,
+      "sha256": "9216e66b6a94f16883b8274a5a5dc047fd5bdecf66aef52ef4a4a0603c512b40"
+    },
+    {
+      "file": "computational_results_all_records.csv",
+      "bytes": 776905,
+      "sha256": "958d6e81c80022fdae9559a11c9c41bd17b8d97b4a47476e96170ef5df593247"
+    },
+    {
+      "file": "data_dictionary.csv",
+      "bytes": 6972,
+      "sha256": "00d90c68dd81643a34a0d359095c23b6cf3a4da980812fe5cd097bb387e0efbe"
+    },
+    {
+      "file": "raw_records/ExpA_Scalability_raw.csv",
+      "bytes": 158524,
+      "sha256": "592b67dcdfe9a0ac508566a7a2c8c21d5b02460b28f9d230b896fd23ae83a4a3"
+    },
+    {
+      "file": "raw_records/ExpA_Scalability_summary.csv",
+      "bytes": 1160,
+      "sha256": "ebfedb1c9c240503558252b8cfe9f30a829b8eb5f1931b37ba2cfd1d523afba7"
+    },
+    {
+      "file": "raw_records/ExpB_Ablation_raw.csv",
+      "bytes": 79411,
+      "sha256": "6d51bd8ae902fd5aa3a136f62355cba390fb81c4ac7af90ceca5523c72115995"
+    },
+    {
+      "file": "raw_records/ExpB_Ablation_summary.csv",
+      "bytes": 326,
+      "sha256": "b2a67f4d393f68612bc91cf9dd922b89ea30a5f5d75d38eaeb98ef9cabcc62c1"
+    },
+    {
+      "file": "raw_records/ExpD_AuxiliaryProbe_manifest.json",
+      "bytes": 369,
+      "sha256": "0d83aa232cdb894519e0319167f9593b341b21f6368a9c770a86027bd14c10b3"
+    },
+    {
+      "file": "raw_records/ExpD_AuxiliaryProbe_raw.csv",
+      "bytes": 33070,
+      "sha256": "9f34f4ff74ce0c23ddc2d939688a0bca223f505839e52ea81ce455f4704b373f"
+    },
+    {
+      "file": "raw_records/ExpD_AuxiliaryProbe_summary.csv",
+      "bytes": 1035,
+      "sha256": "39514c7cc85993fdcbc3acd21159cb672d95a47249533f0115146881070d2a32"
+    },
+    {
+      "file": "raw_records/ExpD_Reliability_manifest_corr00.json",
+      "bytes": 225,
+      "sha256": "8975d3921566f4892122351cda635e13df8baec1267ad5b268154e7d7d1b9fc5"
+    },
+    {
+      "file": "raw_records/ExpD_Reliability_manifest_corr03.json",
+      "bytes": 225,
+      "sha256": "a9bde0fb2afb9340f2841c79737209a1cb7969924298fb6c68613e15a074c1a4"
+    },
+    {
+      "file": "raw_records/ExpD_Reliability_manifest_corr07.json",
+      "bytes": 225,
+      "sha256": "44b8ee452f2b93386ccddb6f00777691c51c0184d3538c1551dd7731bfd66640"
+    },
+    {
+      "file": "raw_records/ExpD_Reliability_manifest_corr09.json",
+      "bytes": 225,
+      "sha256": "506c25693ab25407f877ed4013728a17753af89684f5e928eddb1875a80de4a7"
+    },
+    {
+      "file": "raw_records/ExpD_Reliability_raw_corr00.csv",
+      "bytes": 21699,
+      "sha256": "b8250b812026638ec698adf97a15d42138b8d818e3ac840de9b97556c7f31c2a"
+    },
+    {
+      "file": "raw_records/ExpD_Reliability_raw_corr03.csv",
+      "bytes": 21582,
+      "sha256": "fa4a5c781108c94e8f910c5905796b8e30e6b62bc2bad9e589c81ad2c90bbe4e"
+    },
+    {
+      "file": "raw_records/ExpD_Reliability_raw_corr07.csv",
+      "bytes": 21826,
+      "sha256": "99da6d6cc1d2bc9e9f0080823333e5d3f09147367d36de3bca2a911e83b92eb4"
+    },
+    {
+      "file": "raw_records/ExpD_Reliability_raw_corr09.csv",
+      "bytes": 21821,
+      "sha256": "6d6829b4154bb980dc9e8ea56d42e9107ada9bbb0fc07bd7690420accd29c3d3"
+    },
+    {
+      "file": "raw_records/ExpD_Reliability_summary_corr00.csv",
+      "bytes": 698,
+      "sha256": "93189697e04a1212fb94c8be590d443edce11ab74b482028026d067f7960cc0a"
+    },
+    {
+      "file": "raw_records/ExpD_Reliability_summary_corr03.csv",
+      "bytes": 685,
+      "sha256": "3b3ac45acfa793b404dec698979ade8c1fe96acdbefc702fff8f0caabecc5983"
+    },
+    {
+      "file": "raw_records/ExpD_Reliability_summary_corr07.csv",
+      "bytes": 681,
+      "sha256": "bafe4ee178f53a7669e1f6b0d572e85a7892eac333db39d3414852078ac5a8ce"
+    },
+    {
+      "file": "raw_records/ExpD_Reliability_summary_corr09.csv",
+      "bytes": 694,
+      "sha256": "189224c654bf98ff7c90fbd00307b27abbdf4150d4e5aa861d68ed49085df79c"
+    },
+    {
+      "file": "raw_records/PublicLayout_HornsRev1_source_coordinates.csv",
+      "bytes": 2914,
+      "sha256": "ef34ba31889d82c4f52ae8ca7d85a8331b260e42b2c95d94d5a97f548ec2124a"
+    },
+    {
+      "file": "raw_records/PublicLayoutProbe_hornsrev1_public_n24_L3_scaled.json",
+      "bytes": 2468,
+      "sha256": "2bd01e1596336d1af1e6541cf38059db00afb7ce58181ca4366433f738c64aa6"
+    },
+    {
+      "file": "raw_records/PublicLayoutProbe_raw.csv",
+      "bytes": 4941,
+      "sha256": "67d5a72b4b1e027caa83e10381c4aeebbf86d425a3007042461e0ba671c23e32"
+    },
+    {
+      "file": "raw_records/PublicLayoutProbe_summary.csv",
+      "bytes": 519,
+      "sha256": "5aeba8ad27cf007f32e11884076da247979724a227ad64903619dc19706fe027"
+    },
+    {
+      "file": "raw_records/TinyMonolithicCert_5task_900s.csv",
+      "bytes": 202,
+      "sha256": "f4f8c8b2de720d031fcf7d4458b8cc4f6dae45cf1a721a5bf92f62f7c3ef194f"
+    },
+    {
+      "file": "raw_records/TinyMonolithicCert_6task_900s.csv",
+      "bytes": 154,
+      "sha256": "4fa9b0a2744d2243151c414d9ebf9c31cef23b765cb956c31e56a7d63611beb0"
+    },
+    {
+      "file": "raw_records/TinyMonolithicCert_combined.csv",
+      "bytes": 569,
+      "sha256": "900257865072cbed1933a1996afb594014794379c2502883b567c5e0f199b0be"
+    },
+    {
+      "file": "raw_records/TinyMonolithicCert_prefix6_R5_900s.csv",
+      "bytes": 222,
+      "sha256": "041a53ae1b0a939172553fc36b1a58ed660edde3d6dd54b7a76acf558d9c16f3"
+    },
+    {
+      "file": "README.md",
+      "bytes": 5919,
+      "sha256": "2398d54c3d2e3d401d14b0296598492e7552994523711488c33e0dab691e3f04"
+    },
+    {
+      "file": "small_template_validation.csv",
+      "bytes": 1394,
+      "sha256": "94e5302fa304f64c0afdd39eeaec68b214a268214be33c0998f862b0497bbcbf"
+    },
+    {
+      "file": "source_file_index.csv",
+      "bytes": 13437,
+      "sha256": "41da069911846853deb0e914a255be3bd873a423d67ec240b2970c3a58e7d817"
+    },
+    {
+      "file": "Supplementary_Computational_Results.xlsx",
+      "bytes": 538239,
+      "sha256": "dabf9bd0661fa7a967fd7df18abfabff263d3091be32d2f5ff1d6d1c4d6639d5"
+    }
+  ]
+}

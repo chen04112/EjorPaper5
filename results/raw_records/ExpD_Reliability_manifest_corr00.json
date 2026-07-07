@@ -1,0 +1,10 @@
+{
+  "runner": "run_vmurp_v3_paper_tests_v3_fixed_rev2.py",
+  "suite": "evidence",
+  "runs": 3,
+  "palns_workers": 8,
+  "max_iter": 80,
+  "mosek_threads": 1,
+  "timestamp": "2026-01-09 23:58:44",
+  "generated": true
+}

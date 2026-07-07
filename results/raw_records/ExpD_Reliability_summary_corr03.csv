@@ -1,0 +1,5 @@
+subexp,config,n_tasks,count,mean_obj,mean_time,std_obj,std_time,mean_mc_infeasible_rate,std_mc_infeasible_rate,mean_cert_gap,std_cert_gap,mean_heur_gap_to_lb,std_heur_gap_to_lb
+fair,fair_budget_hybrid,40,15,78001.15538415733,56.21488784665708,4809.718079034405,1.6154462003127943,nan,nan,nan,nan,nan,nan
+fair,fair_budget_palns,40,15,80639.95245494031,31.42690158666422,5412.063242099972,2.3297721564756633,nan,nan,nan,nan,nan,nan
+mc,mc_dro,40,15,79075.63687799187,56.47639298665648,5294.865232061902,1.9297772823890136,0.0,0.0,nan,nan,nan,nan
+mc,mc_nominal,40,15,60299.56636537036,55.466706746676934,4664.096153473567,1.8637605870506504,0.4219,0.37740275568681264,nan,nan,nan,nan

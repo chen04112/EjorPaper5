@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+# Generated reproduction outputs
+reproduced_*.csv
+generator/runs/
+# Build / editor / OS cruft
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,16 @@
+{
+  "runner": "run_vmurp_v3_paper_tests_v3_fixed_rev3.py",
+  "suite": "evidence",
+  "runs": 3,
+  "palns_workers": 2,
+  "max_iter": 40,
+  "mosek_threads": 1,
+  "mc_samples": 1000,
+  "mc_dist": "beta",
+  "mc_corr": 0.7,
+  "mc_R_tol": 0.0001,
+  "enable_block_replan": true,
+  "block_cut_tasks": 1,
+  "timestamp": "2026-04-10 07:54:43",
+  "generated": true
+}
