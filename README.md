@@ -36,7 +36,8 @@ is required for the conic solves.
 For the instance-to-table map and additional reproduction notes, see
 `REPRODUCE.md`.
 
-## Review Status
+## Citation Status
 
-The repository is anonymized for review. Author information will be added after
+This public repository is provided as the review artifact for the revised
+manuscript. A version-archived release with a citable DOI will be added upon
 acceptance.

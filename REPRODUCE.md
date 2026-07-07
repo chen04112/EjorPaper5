@@ -7,8 +7,8 @@ generated families, and the per-instance **records** plus **reproduction checks*
 
 The shipped instance files are the **authoritative benchmark** (bit-for-bit the instances
 used in the paper). The generator is provided so the construction procedure is fully
-specified and auditable. This artifact accompanies the submission and will be deposited in
-a public, version-archived repository with a citable DOI upon acceptance.
+specified and auditable. This public artifact accompanies the submission; a
+version-archived release with a citable DOI will be added upon acceptance.
 
 ## 1. Instances (`instances/`)
 

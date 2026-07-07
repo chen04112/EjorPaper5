@@ -2,7 +2,7 @@
 
 This folder is the reproducibility artifact referenced in the manuscript "Data and Result Availability" statement. It has three parts: the benchmark **instances**, the seeded **generator** used to synthesize the generated families, and the per-instance **records** plus **reproduction checks**. **Start with `REPRODUCE.md`**, which maps every instance file to the table/experiment that uses it and documents the generator seed convention.
 
-This artifact accompanies the submission and will be deposited in a public, version-archived repository with a citable DOI upon acceptance. The shipped instance files are the authoritative benchmark.
+This public artifact accompanies the submission. A version-archived release with a citable DOI will be added upon acceptance. The shipped instance files are the authoritative benchmark.
 
 ## Contents
 
