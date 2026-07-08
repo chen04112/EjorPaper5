@@ -33,19 +33,21 @@ Install the minimal Python requirements and run:
 ```bash
 pip install -r requirements.txt
 python reproduce_pair_perimeter_lb.py
-python reproduce_large_diagnostics.py --max-iter 12 --repair-k 5
+python reproduce_large_diagnostics.py
 ```
 
 The first script recomputes the lower-bound values for the benchmark instances
 and prints `MATCH` for the reported values. The second script regenerates the
-large diagnostic records and figures from fixed seeds. A MOSEK installation with
-a valid license is required for the conic solves.
+large diagnostic records and figures from fixed seeds using the submitted
+diagnostic budget. A MOSEK installation with a valid license is required for the
+conic solves. For a quick installation check, run
+`python reproduce_large_diagnostics.py --smoke --outdir large_diagnostics_smoke`.
 
 For the instance-to-table map and additional reproduction notes, see
 `REPRODUCE.md`.
 
 ## Citation Status
 
-This public repository is provided as the review artifact for the revised
-manuscript. A version-archived release with a citable DOI will be added upon
-acceptance.
+This public repository is provided as the supplementary reproducibility artifact
+for the revised manuscript. A version-archived repository release with a citable
+DOI will be added upon acceptance.

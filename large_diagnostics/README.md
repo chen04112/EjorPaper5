@@ -17,11 +17,20 @@ runs, not aggregate scalability tables.
 From the repository root, run:
 
 ```bash
-python reproduce_large_diagnostics.py --max-iter 12 --repair-k 5
+python reproduce_large_diagnostics.py
 ```
 
 A MOSEK installation with a valid license is required because the diagnostic
 plans are evaluated by the submitted fixed-OPS SOCP oracle.
+
+The default command uses the diagnostic budget submitted with the artifact:
+`max_iter=100`, `repair_k=7`, `refine_policy=best`, `refine_steps=30`,
+`refine_evals=1`, `cache_size=5000`, and `mosek_threads=1`. For a quick
+installation check, use:
+
+```bash
+python reproduce_large_diagnostics.py --smoke --outdir large_diagnostics_smoke
+```
 
 ## Contents
 

@@ -7,8 +7,9 @@ generated families, and the per-instance **records** plus **reproduction checks*
 
 The shipped instance files are the **authoritative benchmark** (bit-for-bit the instances
 used in the paper). The generator is provided so the construction procedure is fully
-specified and auditable. This public artifact accompanies the submission; a
-version-archived release with a citable DOI will be added upon acceptance.
+specified and auditable. This supplementary artifact accompanies the submission and is
+also available at `https://github.com/chen04112/EjorPaper5`; a version-archived
+repository release with a citable DOI will be added upon acceptance.
 
 ## 1. Instances (`instances/`)
 
@@ -98,7 +99,7 @@ The fixed cases are:
 To regenerate the records and figures from the repository root:
 
 ```bash
-python reproduce_large_diagnostics.py --max-iter 12 --repair-k 5
+python reproduce_large_diagnostics.py
 ```
 
 A MOSEK installation with a valid license is required.
