@@ -9,7 +9,8 @@ This supplementary artifact accompanies the submission and is also available at 
 - `REPRODUCE.md`: reproducibility guide (instance-to-table map, generator seeds, reproduction checks).
 - `instances/`: the exact benchmark instances as coordinate/JSON files for every reported size up to `n=60`, plus the scaled Horns Rev 1 public-layout subset and its raw public coordinates.
 - `generator/bundle_instances.py`: the deterministic, seeded instance generator (global `SEED=2025`; per-instance seed `SEED + 10000*n + 97*r`; default fleet mapping `(20,2)`, `(40,3)`, `(60,4)`, `(80,5)`).
-- `reproduction_checks/pair_perimeter_lb_reproduction.csv`: independent recomputation of the Table 4 pair-perimeter lower bounds (reproduce to rounding).
+- `reproduction_checks/pair_perimeter_lb_reproduction.csv`: independent recomputation of the Table 5 pair-perimeter lower bounds (reproduce to rounding).
+- `reproduction_checks/table5_lower_bound_intervals.csv`: current Table 5 lower-bound intervals, including the incumbent values used in the manuscript and the lower bounds behind the reported intervals.
 - `ADDED_ARTIFACT_SHA256SUMS.txt`: SHA-256 hashes for the instance/generator/reproduction files added in round 2.
 - `Supplementary_Computational_Results.xlsx`: the consolidated records workbook (recommended single-file upload).
 - `computational_results_all_records.csv`: consolidated per-instance/per-seed records.

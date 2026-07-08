@@ -15,12 +15,12 @@ repository release with a citable DOI will be added upon acceptance.
 
 | File | Instance in paper | n | L | R | Used in |
 |---|---|---|---|---|---|
-| `Example3_15_1_bundle_separate_depot.json` | Ex6-15-1 (and its n=2..10 prefixes) | 14 | 3 | 5.0 | Table 4 (n=14); certified calibration prefixes n<=6 (Supplementary Appendix S.9); n=7/8/10 monolithic-dominance probe (Sec 6.2) |
-| `Example3_30_1_bundle_separate_depot.json` | Ex6-30-1 | 30 | 3 | 5.0 | Table 4 (n=30) |
-| `Example3_40_1_bundle_separate_depot.json` | Ex3-40-1 | 40 | 3 | 5.0 | Table 4 (n=40) |
+| `Example3_15_1_bundle_separate_depot.json` | Ex6-15-1 (and its n=2..10 prefixes) | 14 | 3 | 5.0 | Table 5 lower-bound interval (n=14); certified calibration prefixes n<=6 (Supplementary Appendix S.9); n=7/8/10 monolithic-diagnostic probe (Section 6.2) |
+| `Example3_30_1_bundle_separate_depot.json` | Ex6-30-1 | 30 | 3 | 5.0 | Table 5 lower-bound interval (n=30) |
+| `Example3_40_1_bundle_separate_depot.json` | Ex3-40-1 | 40 | 3 | 5.0 | Table 5 lower-bound interval (n=40) |
 | `Example3_60_1_bundle_separate_depot.json` | Ex3-60-1 | 60 | 3 | 5.0 | Pair-perimeter lower-bound timing check at n=60 (Supplementary Appendix S.6) |
-| `Example3_5_1_bundle_separate_depot.json` | Ex3-5-1 | 4 | 3 | 1.0 (nominal) | Table 5 (template-family validation) |
-| `Example3_6_1_bundle_separate_depot.json` | Ex3-6-1 | 5 | 3 | 3.0 (nominal) | Table 5 (template-family validation) |
+| `Example3_5_1_bundle_separate_depot.json` | Ex3-5-1 | 4 | 3 | 1.0 (nominal) | Table 6 (template-family validation) |
+| `Example3_6_1_bundle_separate_depot.json` | Ex3-6-1 | 5 | 3 | 3.0 (nominal) | Table 6 (template-family validation) |
 | `hornsrev1_public_n24_L3_scaled.json` | Horns Rev 1 subset | 24 | 3 | -- | Table 3 (public-layout probe) |
 | `WPPcoords_HornsRev1.csv` | Horns Rev 1 raw public coordinates | -- | -- | -- | Source for the scaled subset above |
 
@@ -60,16 +60,18 @@ remain the authoritative benchmark; the generator documents how such families ar
 - `computational_results_all_records.csv` -- consolidated run-level records (objectives,
   runtimes, execution-simulation summaries).
 - `aggregate_reproduction_checks.csv` -- grouped checks behind each manuscript table/figure.
-- `small_template_validation.csv` -- values behind Table 5.
+- `small_template_validation.csv` -- values behind Table 6.
+- `reproduction_checks/table5_lower_bound_intervals.csv` -- current Table 5
+  lower-bound intervals, including the incumbent values used in the manuscript
+  and the lower bounds used to compute the reported intervals.
 - `reproduction_checks/pair_perimeter_lb_reproduction.csv` -- an **independent recomputation
-  of the pair-perimeter lower bound** used in Table 4. The lower-bound values reproduce to
+  of the pair-perimeter lower bound** used in Table 5. The lower-bound values reproduce to
   rounding: n=14 -> 16392.24, n=30 -> 25047.76, n=40 -> 28224.07 (matching the bounds implied
-  by Table 4), confirming the certified bound is exactly reproducible from the committed
+  by Table 5), confirming the certified bound is exactly reproducible from the committed
   code (`lb_relax_socp.solve_lb_relax_socp`, pair-cuts enabled). The n=60 bound (30838.61)
   is computed in about 5 seconds, confirming the Supplementary Appendix S.6 scalability statement.
-  The strong incumbents (upper bounds) in Table 4 are the best found across search
-  configurations and require the full multi-seed search; the lower bounds here are the
-  seconds-level certified component.
+  The lower-bound recomputation script is a portable certificate check; it is not a rerun of
+  the full multi-seed incumbent search.
 - `data_dictionary.csv`, `source_file_index.csv`, `manifest.json` -- field definitions,
   file-to-experiment mapping, and file-level SHA-256 manifests.
 

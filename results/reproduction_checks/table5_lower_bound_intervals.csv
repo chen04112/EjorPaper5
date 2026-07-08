@@ -1,0 +1,6 @@
+instance,n,R,incumbent_J,no_order_LB,no_order_interval_pct,pair_perimeter_LB,pair_perimeter_interval_pct,source_note
+Ex6-15-1-p5,5,5,8494.66,8119.20,4.42,8232.15,3.09,Table 5 values; n=5 pair-perimeter LB is independently recomputed by reproduce_pair_perimeter_lb.py.
+Ex6-15-1-p6,6,5,9748.93,8851.05,9.21,8964.53,8.05,Table 5 values; n=6 pair-perimeter LB is independently recomputed by reproduce_pair_perimeter_lb.py.
+Ex6-15-1,14,5,19275.31,15348.96,20.37,16392.24,14.96,Table 5 values; n=14 pair-perimeter LB is independently recomputed by reproduce_pair_perimeter_lb.py.
+Ex6-30-1,30,5,30701.01,19009.22,38.08,25047.76,18.41,Table 5 values; n=30 pair-perimeter LB is independently recomputed by reproduce_pair_perimeter_lb.py.
+Ex3-40-1,40,5,36014.93,19190.23,46.72,28224.07,21.63,Table 5 values; n=40 pair-perimeter LB is independently recomputed by reproduce_pair_perimeter_lb.py.
