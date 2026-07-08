@@ -153,13 +153,13 @@
     },
     {
       "file": "aggregate_reproduction_checks.csv",
-      "bytes": 19605,
-      "sha256": "9216e66b6a94f16883b8274a5a5dc047fd5bdecf66aef52ef4a4a0603c512b40"
+      "bytes": 19385,
+      "sha256": "246fcca5415b15cf1bf2e340fd2457459678c35c670ac28284288cdacb667c59"
     },
     {
       "file": "computational_results_all_records.csv",
-      "bytes": 776905,
-      "sha256": "958d6e81c80022fdae9559a11c9c41bd17b8d97b4a47476e96170ef5df593247"
+      "bytes": 776252,
+      "sha256": "eb80ea03210b7dcae29a3ba67b975ff289d0c75c8fa1e6d4bc3188491c634bb8"
     },
     {
       "file": "data_dictionary.csv",
@@ -283,23 +283,23 @@
     },
     {
       "file": "raw_records/TinyMonolithicCert_5task_900s.csv",
-      "bytes": 202,
-      "sha256": "f4f8c8b2de720d031fcf7d4458b8cc4f6dae45cf1a721a5bf92f62f7c3ef194f"
+      "bytes": 149,
+      "sha256": "a8e3a2b52b18a44c84610718beab3b18c8d3adb20b30431e4b2372b5ed368cc2"
     },
     {
       "file": "raw_records/TinyMonolithicCert_6task_900s.csv",
-      "bytes": 154,
-      "sha256": "4fa9b0a2744d2243151c414d9ebf9c31cef23b765cb956c31e56a7d63611beb0"
+      "bytes": 150,
+      "sha256": "896811b001955e347fcdba3329233b1cba5bda818115233e8d254c9b2cbc7c19"
     },
     {
       "file": "raw_records/TinyMonolithicCert_combined.csv",
-      "bytes": 569,
-      "sha256": "900257865072cbed1933a1996afb594014794379c2502883b567c5e0f199b0be"
+      "bytes": 281,
+      "sha256": "a049bb153745efd8a042efc0558cbd887ab5877ab1398c95fd48ee6379886a74"
     },
     {
       "file": "raw_records/TinyMonolithicCert_prefix6_R5_900s.csv",
-      "bytes": 222,
-      "sha256": "041a53ae1b0a939172553fc36b1a58ed660edde3d6dd54b7a76acf558d9c16f3"
+      "bytes": 156,
+      "sha256": "d560fe23017a617486a6d5729b530e035e6646d69515b998a7bea50f540f3816"
     },
     {
       "file": "README.md",
@@ -323,8 +323,8 @@
     },
     {
       "file": "source_file_index.csv",
-      "bytes": 17056,
-      "sha256": "87f80989996d57b06700eaf0f0f40b118189d1f6a8d5beb2a312a0da68b4e0b4"
+      "bytes": 16950,
+      "sha256": "16b29a96493a0e6602b50111b5b75787b9ccfd94aaa968eab1715ed5b1c3ec37"
     },
     {
       "file": "Supplementary_Computational_Results.xlsx",

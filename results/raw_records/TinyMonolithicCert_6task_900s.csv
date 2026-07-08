@@ -1,2 +1,2 @@
 file,instance_id,n,L,status,cert_ub,cert_lb,cert_gap,cert_time
-Example_sub6.json,Example_6_15_1_sub6,6,3,OK,inf,6770.227641822885,nan,900.2431961999973
+Example3_15_1_bundle_separate_depot.json,Ex6-15-1-p6,6,3,OK,9589.90,9589.90,0.0,256.89
