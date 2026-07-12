@@ -12,6 +12,8 @@ for the manuscript:
 - `instances/`: benchmark instances used in the reported experiments.
 - `results/`: raw and summary computational records, data dictionary, and file
   manifests.
+- `refresh_reliability_artifact.py`: refreshes the consolidated reliability
+  records and file manifests from the four committed correlation sweeps.
 - `generator/`: seeded instance generator used to document the construction of
   the generated instance families.
 - `reproduce_pair_perimeter_lb.py`: portable check that recomputes the

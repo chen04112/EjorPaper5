@@ -1,5 +1,5 @@
-subexp,config,n_tasks,count,mean_obj,mean_time,std_obj,std_time,mean_mc_infeasible_rate,std_mc_infeasible_rate,mean_cert_gap,std_cert_gap,mean_heur_gap_to_lb,std_heur_gap_to_lb
-fair,fair_budget_hybrid,40,15,77995.12409836524,55.756731866688156,4809.008122306543,1.852324419121204,nan,nan,nan,nan,nan,nan
-fair,fair_budget_palns,40,15,80639.95245494031,31.670490340011504,5412.063242099972,1.4624298999171892,nan,nan,nan,nan,nan,nan
-mc,mc_dro,40,15,79079.69876869077,56.36012448666928,5297.687104124928,1.93611864546566,0.0,0.0,nan,nan,nan,nan
-mc,mc_nominal,40,15,60301.34962945817,55.331119353339695,4660.646413673576,1.761663395229685,0.5416333333333333,0.3598938022373946,nan,nan,nan,nan
+subexp,config,n_tasks,count,mean_obj,mean_time,std_obj,std_time,mean_mc_infeasible_rate,std_mc_infeasible_rate,mean_mc_obj_mean,std_mc_obj_mean,mean_replan_count,mean_replan_time_total,mean_realized_cost_inflation,mean_cert_gap,std_cert_gap,mean_heur_gap_to_lb,std_heur_gap_to_lb
+fair,fair_budget_hybrid,40,15,77716.26389465352,35.56854551333624,4717.517242939667,1.0405755919258526,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+fair,fair_budget_palns,40,15,80639.95245494031,11.823054446671934,5412.063242099972,1.134684600639484,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+mc,mc_dro,40,15,78841.08073334538,35.716358986656026,5215.147007250413,0.6240910265313684,0.0,0.0,78830.0049068639,5211.758858751469,nan,nan,-0.0001375644550654079,nan,nan,nan,nan
+mc,mc_nominal,40,15,60241.49686098763,35.168747726660996,4654.831460891491,1.1744195766730878,0.6205999999999999,0.3603708830265472,82366.53934128217,6072.4060602998,nan,nan,0.36783798127227485,nan,nan,nan,nan

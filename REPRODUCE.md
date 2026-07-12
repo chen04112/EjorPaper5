@@ -75,6 +75,17 @@ remain the authoritative benchmark; the generator documents how such families ar
 - `data_dictionary.csv`, `source_file_index.csv`, `manifest.json` -- field definitions,
   file-to-experiment mapping, and file-level SHA-256 manifests.
 
+### Reliability sweep
+
+The four correlation sweeps behind Figure 4 are stored in
+`results/raw_records/ExpD_Reliability_*_corr{00,03,07,09}.*`. Each sweep uses
+five generated 40-task instances, three planning seeds per instance, eight
+parallel workers, 80 PLNS-SA iterations per worker, and 2,000 beta-distributed
+execution scenarios. The endurance test uses the numerical tolerance
+`mc_R_tol=1e-4`. The manifest beside each raw and summary CSV records these
+settings. After replacing a sweep, run `python refresh_reliability_artifact.py`
+to rebuild the consolidated records, aggregate checks, source index, and hashes.
+
 ## 4. Large diagnostic figures in Supplementary Appendix S.7
 
 The large-instance visual diagnostics are reproducible from fixed seeds. They

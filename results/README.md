@@ -12,11 +12,11 @@ This supplementary artifact accompanies the submission and is also available at 
 - `reproduction_checks/pair_perimeter_lb_reproduction.csv`: independent recomputation of the Table 5 pair-perimeter lower bounds (reproduce to rounding).
 - `reproduction_checks/table5_lower_bound_intervals.csv`: current Table 5 lower-bound intervals, including the incumbent values used in the manuscript and the lower bounds behind the reported intervals.
 - `ADDED_ARTIFACT_SHA256SUMS.txt`: SHA-256 hashes for the instance/generator/reproduction files added in round 2.
-- `Supplementary_Computational_Results.xlsx`: the consolidated records workbook (recommended single-file upload).
 - `computational_results_all_records.csv`: consolidated per-instance/per-seed records.
 - `aggregate_reproduction_checks.csv`: grouped checks used to trace the manuscript's aggregate tables and figures.
 - `data_dictionary.csv`: field definitions.
 - `source_file_index.csv`: original source paths, submitted file names, row counts, and SHA-256 hashes.
+- `../refresh_reliability_artifact.py`: deterministic refresh of the reliability-derived consolidated records and manifests.
 - `small_template_validation.csv`: instance-level small-template validation values from the manuscript table.
 - `raw_records/`: copied raw CSV, JSON, and run manifest files used to build the consolidated records.
 - `manifest.json`: file-level manifest and hashes for this folder.
@@ -45,7 +45,7 @@ Key mappings:
 - Public-layout probe: `PublicLayoutProbe_raw.csv`, `PublicLayoutProbe_summary.csv`, `PublicLayoutProbe_hornsrev1_public_n24_L3_scaled.json`, and `PublicLayout_HornsRev1_source_coordinates.csv`.
 - Scalability evidence: `ExpA_Scalability_raw.csv` and `ExpA_Scalability_summary.csv`.
 - Medium-scale ablation and planned premium: `ExpB_Ablation_raw.csv` and `ExpB_Ablation_summary.csv`.
-- Reliability simulation sweep: `ExpD_Reliability_raw_corr00.csv`, `ExpD_Reliability_raw_corr03.csv`, `ExpD_Reliability_raw_corr07.csv`, `ExpD_Reliability_raw_corr09.csv`, with matching summary and manifest files.
+- Reliability simulation sweep: `ExpD_Reliability_raw_corr00.csv`, `ExpD_Reliability_raw_corr03.csv`, `ExpD_Reliability_raw_corr07.csv`, `ExpD_Reliability_raw_corr09.csv`, with matching summary and manifest files. Their manifests record eight workers, 80 iterations per worker, 2,000 execution scenarios, and `mc_R_tol=1e-4`.
 - Auxiliary fixed-buffer/replanning probe: `ExpD_AuxiliaryProbe_raw.csv`, `ExpD_AuxiliaryProbe_summary.csv`, and `ExpD_AuxiliaryProbe_manifest.json`.
 - Tiny monolithic validation note: `TinyMonolithicCert_combined.csv` and the individual 900-second certificate files.
 - Small-template validation table: `small_template_validation.csv`.
