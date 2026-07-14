@@ -39,8 +39,10 @@ Notes:
 
 ## 2. Generator (`generator/bundle_instances.py`)
 
-The deterministic, seeded generator that synthesizes the generated instance families
-(irregular-field / line-depot / co-located motifs). It is fully specified by:
+The deterministic, seeded generator synthesizes generated instances along two distinct
+geometric dimensions: task field geometry (uniform, clustered, or approximately linear
+coordinates) and depot configuration (co-located or separate starting and terminal points).
+It is fully specified by:
 
 - A global `SEED` (default `2025`) and a per-instance seed convention
   `inst_seed = SEED + 10000*n + 97*r` for size `n` and repetition index `r`, so every
